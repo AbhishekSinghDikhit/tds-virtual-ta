@@ -2,6 +2,10 @@
 Welcome to the TDS Virtual TA project! This is a powerful, modern API designed to answer questions for the IIT Madras "Tools in Data Science" (TDS) course. It combines web scraping, LLM-powered semantic embeddings, and similarity search to deliver smart, context-aware, and course-aligned answers.
 
 ---
+### 🚀 Live Demo
+- API Endpoint: https://tds-virtual-ta-uq32.onrender.com/api/
+
+---
 
 ## 🚀 Features
 - FastAPI server for interactive API endpoints
