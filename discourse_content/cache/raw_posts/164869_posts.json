@@ -1,0 +1,413 @@
+[
+  {
+    "id": 583973,
+    "name": "Saransh Saini",
+    "username": "Saransh_Saini",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png",
+    "created_at": "2025-01-23T08:19:14.593Z",
+    "cooked": "<p>Hi Everyone,</p>\n<p>For today\u2019s live session [23-01-2025] we will be giving an elaborate tutorial on using Flask framework for API creation, also we will discuss the last 3 questions of GA1.<br>\nFlask is a Python Framework used for creating APIs and accessing databases. We highly encourage everyone to join this session at 8pm, as Flask is an important topic which might be useful in your projects and even ROE. Also anyone who is not enrolled in TDS, but wished to learn about Flask are also encouraged to join.</p>\n<p>Link: <a href=\"http://meet.google.com/brz-ksac-evo\" rel=\"noopener nofollow ugc\">meet.google.com/brz-ksac-evo</a><br>\nTimings: 8pm - 10pm</p>\n<p>Regards,<br>\nSaransh Saini<br>\nTDS TA</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-23T10:21:56.620Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 39,
+    "readers_count": 38,
+    "score": 22.0,
+    "yours": false,
+    "topic_id": 164869,
+    "topic_slug": "agenda-for-todays-live-session-flask-tutorial",
+    "display_username": "Saransh Saini",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "http://meet.google.com/brz-ksac-evo",
+        "internal": false,
+        "reflection": false,
+        "clicks": 4
+      }
+    ],
+    "read": false,
+    "user_title": "Course TA",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 13078,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/agenda-for-todays-live-session-flask-tutorial/164869/1",
+    "user_cakedate": "2022-05-02",
+    "user_birthdate": "1904-08-04",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 584177,
+    "name": "Avinash Prasad ",
+    "username": "23f3003453",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f3003453/{size}/111174_2.png",
+    "created_at": "2025-01-23T16:39:19.321Z",
+    "cooked": "<p>Sir, Is the same meeting link valid for all the  future live sessions? It would be really helpful if you could share the updates through mail.</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-23T16:39:19.321Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 26,
+    "readers_count": 25,
+    "score": 19.6,
+    "yours": false,
+    "topic_id": 164869,
+    "topic_slug": "agenda-for-todays-live-session-flask-tutorial",
+    "display_username": "Avinash Prasad ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 25677,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/agenda-for-todays-live-session-flask-tutorial/164869/2",
+    "user_cakedate": "2024-01-23",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 584416,
+    "name": "DEEPANSHU",
+    "username": "23f2004097",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004097/{size}/68126_2.png",
+    "created_at": "2025-01-24T08:21:37.553Z",
+    "cooked": "<p>Was this session recorded? If recorded please provide link. This session was not in calender so missed that.</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-24T08:21:37.553Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 20,
+    "readers_count": 19,
+    "score": 13.2,
+    "yours": false,
+    "topic_id": 164869,
+    "topic_slug": "agenda-for-todays-live-session-flask-tutorial",
+    "display_username": "DEEPANSHU",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 24086,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/agenda-for-todays-live-session-flask-tutorial/164869/3",
+    "user_cakedate": "2023-10-13",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 584423,
+    "name": "Saransh Saini",
+    "username": "Saransh_Saini",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png",
+    "created_at": "2025-01-24T08:43:13.776Z",
+    "cooked": "<p>This session will be uploaded on YouTube soon. In the meanwhile you can access the recording here</p><aside class=\"onebox googledrive\" data-onebox-src=\"https://drive.google.com/file/d/1w-zklGDSInE1n_T_bIGgo9GFE9_jPhTe/view?usp=drivesdk\">\n  <header class=\"source\">\n\n      <a href=\"https://drive.google.com/file/d/1w-zklGDSInE1n_T_bIGgo9GFE9_jPhTe/view?usp=drivesdk\" target=\"_blank\" rel=\"noopener nofollow ugc\">drive.google.com</a>\n  </header>\n\n  <article class=\"onebox-body\">\n      <a href=\"https://drive.google.com/file/d/1w-zklGDSInE1n_T_bIGgo9GFE9_jPhTe/view?usp=drivesdk\" target=\"_blank\" rel=\"noopener nofollow ugc\"><span class=\"googledocs-onebox-logo g-drive-logo\"></span></a>\n\n\n\n<h3><a href=\"https://drive.google.com/file/d/1w-zklGDSInE1n_T_bIGgo9GFE9_jPhTe/view?usp=drivesdk\" target=\"_blank\" rel=\"noopener nofollow ugc\">Live Session - TDS - 2025/01/23 19:54 GMT+05:30 - Recording</a></h3>\n\n<p>Google Drive file.</p>\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-24T08:43:32.061Z",
+    "reply_count": 0,
+    "reply_to_post_number": 3,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 20,
+    "readers_count": 19,
+    "score": 18.0,
+    "yours": false,
+    "topic_id": 164869,
+    "topic_slug": "agenda-for-todays-live-session-flask-tutorial",
+    "display_username": "Saransh Saini",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://drive.google.com/file/d/1w-zklGDSInE1n_T_bIGgo9GFE9_jPhTe/view?usp=drivesdk",
+        "internal": false,
+        "reflection": false,
+        "title": "Live Session - TDS - 2025/01/23 19:54 GMT+05:30 - Recording - Google Drive",
+        "clicks": 3
+      }
+    ],
+    "read": false,
+    "user_title": "Course TA",
+    "title_is_group": false,
+    "reply_to_user": {
+      "id": 24086,
+      "username": "23f2004097",
+      "name": "DEEPANSHU",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004097/{size}/68126_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 13078,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/agenda-for-todays-live-session-flask-tutorial/164869/4",
+    "user_cakedate": "2022-05-02",
+    "user_birthdate": "1904-08-04",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  }
+]

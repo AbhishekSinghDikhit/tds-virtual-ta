@@ -1,0 +1,402 @@
+[
+  {
+    "id": 614298,
+    "name": "Aarush saxena ",
+    "username": "23f2005702",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2005702/{size}/88240_2.png",
+    "created_at": "2025-04-01T15:09:38.084Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/s.anand\">@s.anand</a> <a class=\"mention\" href=\"/u/carlton\">@carlton</a> <a class=\"mention\" href=\"/u/saransh_saini\">@Saransh_Saini</a> <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a><br>\nI submitted the form before the deadline with the API endpoint as /api, but I later realized the correct format was /api/ (with a trailing slash). To fix this, I edited the Google Form today.</p>\n<p>Will this cause any issues with the submission? Please let me know if any further action is needed.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-04-01T15:09:38.084Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 4,
+    "reads": 40,
+    "readers_count": 39,
+    "score": 57.0,
+    "yours": false,
+    "topic_id": 171525,
+    "topic_slug": "clarification-on-api-endpoint-correction-in-submission",
+    "display_username": "Aarush saxena ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 25223,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/clarification-on-api-endpoint-correction-in-submission/171525/1",
+    "user_cakedate": "2024-01-19",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 614557,
+    "name": "Pradeep Mondal",
+    "username": "21f2000709",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f2000709/{size}/92157_2.png",
+    "created_at": "2025-04-02T11:52:04.861Z",
+    "cooked": "<p>It is not like that, it can be any endpoint, but whatever you submit should work. Like many frameworks treat /api/ and /api differently.</p>\n<p>The project 2 docs assumes that the endpoint is /api/ and provides the code accordingly.</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-04-02T11:53:28.602Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 39,
+    "readers_count": 38,
+    "score": 26.8,
+    "yours": false,
+    "topic_id": 171525,
+    "topic_slug": "clarification-on-api-endpoint-correction-in-submission",
+    "display_username": "Pradeep Mondal",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 7034,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/clarification-on-api-endpoint-correction-in-submission/171525/2",
+    "user_cakedate": "2021-09-09",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 614567,
+    "name": "Aarush saxena ",
+    "username": "23f2005702",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2005702/{size}/88240_2.png",
+    "created_at": "2025-04-02T12:04:08.373Z",
+    "cooked": "<p>you are right but if I use postman with /api end point it wont work but with /api/ it will work so..</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-04-02T12:04:08.373Z",
+    "reply_count": 0,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 2,
+    "reads": 36,
+    "readers_count": 35,
+    "score": 46.2,
+    "yours": false,
+    "topic_id": 171525,
+    "topic_slug": "clarification-on-api-endpoint-correction-in-submission",
+    "display_username": "Aarush saxena ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "reply_to_user": {
+      "id": 7034,
+      "username": "21f2000709",
+      "name": "Pradeep Mondal",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f2000709/{size}/92157_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 25223,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/clarification-on-api-endpoint-correction-in-submission/171525/3",
+    "user_cakedate": "2024-01-19",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 615017,
+    "name": "Aarush saxena ",
+    "username": "23f2005702",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2005702/{size}/88240_2.png",
+    "created_at": "2025-04-03T14:38:39.579Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/saransh_saini\">@Saransh_Saini</a><br>\nHere is the tag</p>\n<p>And roll number  of people in collaboration with our project</p>\n<p>21f3001076@ds.study.iitm.ac.in</p>\n<p>23f2005702@ds.study.iitm.ac.in</p>\n<p>23f2004637@ds.study.iitm.ac.in</p>\n<p>23f2005702@ds.study.iitm.ac.in</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-04-03T14:42:25.613Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 29,
+    "readers_count": 28,
+    "score": 39.8,
+    "yours": false,
+    "topic_id": 171525,
+    "topic_slug": "clarification-on-api-endpoint-correction-in-submission",
+    "display_username": "Aarush saxena ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 25223,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/clarification-on-api-endpoint-correction-in-submission/171525/4",
+    "user_cakedate": "2024-01-19",
+    "reactions": [
+      {
+        "id": "+1",
+        "type": "emoji",
+        "count": 1
+      },
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

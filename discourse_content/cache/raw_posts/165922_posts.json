@@ -1,0 +1,380 @@
+[
+  {
+    "id": 588140,
+    "name": "Shalini Saravanan",
+    "username": "24f2006531",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2006531/{size}/111700_2.png",
+    "created_at": "2025-01-31T06:26:47.630Z",
+    "cooked": "<p>Is it considered best practice to create a virtual environment rather than installing packages globally, especially when working on projects that require multiple libraries? I understand that in a professional setting, we often work on multiple projects simultaneously, and developing the habit of using virtual environments now can help reinforce this practice for future projects.</p>\n<p>Additionally, when managing dependencies, would it be better to install packages individually using pip or list them in a requirements.txt file? My understanding is that if a version is not specified in the requirements.txt file, it installs the latest available version, whereas specifying a version ensures a specific installation. However, I have encountered instances where a specific version failed to install, requiring me to modify the requirements.txt file and remove the version constraint. In such cases, wouldn\u2019t installing directly via pip be more practical?</p>\n<p>That said, I also recognize that different projects may have unique dependency requirements. I\u2019d appreciate your insights on best practices for managing dependencies efficiently.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-31T06:26:47.630Z",
+    "reply_count": 2,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 25,
+    "readers_count": 24,
+    "score": 14.2,
+    "yours": false,
+    "topic_id": 165922,
+    "topic_slug": "best-practices-for-virtual-environments-and-dependency-management-in-python",
+    "display_username": "Shalini Saravanan",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 36236,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/best-practices-for-virtual-environments-and-dependency-management-in-python/165922/1",
+    "user_cakedate": "2024-09-21",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 588153,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-01-31T06:50:45.102Z",
+    "cooked": "<p>Yes, using a virtual environment is definitely considered best practice when working on Python projects. This approach helps avoid dependency conflicts between projects and ensures a consistent development environment. The main reasons why you should use virtual environments:</p>\n<ol>\n<li>\n<p><strong>Isolation</strong> \u2013 Each project has its own set of dependencies, preventing conflicts with other projects.</p>\n</li>\n<li>\n<p><strong>Reproducibility</strong> \u2013 A virtual environment ensures that all contributors work with the same dependencies.</p>\n</li>\n<li>\n<p><strong>Portability</strong> \u2013 You can share a project with others (or deploy it) without worrying about system-wide package versions interfering.</p>\n</li>\n</ol>\n<hr>\n<ol>\n<li><strong>Installing with pip individually (pip install package-name)</strong></li>\n</ol>\n<p>\u2022 Good for quick experimentation and testing.</p>\n<p>\u2022 Not ideal for long-term project management because dependencies might update and break compatibility over time.</p>\n<ol start=\"2\">\n<li><strong>Using requirements.txt</strong></li>\n</ol>\n<p>\u2022 Best for <strong>reproducibility</strong> and <strong>collaboration</strong> since others can install the exact same dependencies using pip install -r requirements.txt.</p>\n<p>\u2022 Avoids issues where one developer uses an updated library that breaks compatibility with another developer\u2019s setup.</p>\n<p><strong>Specifying Versions in requirements.txt</strong></p>\n<p>\u2022 If you <strong>don\u2019t specify a version</strong>, pip install -r requirements.txt will install the latest available versions, which might introduce unexpected breaking changes.</p>\n<p>\u2022 If you <strong>do specify a version (package==1.2.3)</strong>, you ensure consistency but may run into problems if that version becomes unavailable or has compatibility issues.</p>\n<p><strong>Handling Version Conflicts</strong></p>\n<p>\u2022 If a package version fails to install, try removing the strict version constraint and reinstall.</p>\n<p>\u2022 Instead of completely omitting version numbers, consider:</p>\n<p>\u2022 Using <strong>greater than/less than constraints</strong>: package&gt;=1.2,&lt;2.0 (allows updates but avoids major version changes).</p>\n<p>\u2022 Running pip freeze &gt; requirements.txt after confirming a stable environment.</p>\n<p><strong>Best Practices Summary</strong></p>\n<ul>\n<li>Always use a virtual environment (e.g., venv or conda).</li>\n<li>Use a <strong>requirements.txt</strong> file for reproducibility.</li>\n<li>Pin versions cautiously\u2014avoid unnecessary strict versioning unless needed.</li>\n<li>Periodically review and update dependencies to prevent using outdated or insecure packages.</li>\n</ul>\n<p>Kind regards</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-31T06:56:44.659Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 19,
+    "readers_count": 18,
+    "score": 38.6,
+    "yours": false,
+    "topic_id": 165922,
+    "topic_slug": "best-practices-for-virtual-environments-and-dependency-management-in-python",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 4,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/best-practices-for-virtual-environments-and-dependency-management-in-python/165922/2",
+    "user_cakedate": "2023-01-25",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 588155,
+    "name": "Harsh Shah",
+    "username": "23f2003845",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/6f9a4e/{size}.png",
+    "created_at": "2025-01-31T06:54:16.291Z",
+    "cooked": "<p>For some projects where there are many dependencies, like an ML project or flask app, it\u2019s better you mantain a virtual environment since the dependencies are interconnected with their versions.</p>\n<p>Whereas for some simple projects, with less dependencies, global installation is fine.</p>\n<blockquote>\n<p>For project that is to be deployed, make sure you use the virtual environment, only then you can ensure what worked for you also works on the deployement</p>\n</blockquote>\n<hr>\n<aside class=\"quote group-ds-students\" data-username=\"24f2006531\" data-post=\"1\" data-topic=\"165922\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2006531/48/111700_2.png\" class=\"avatar\"> 24f2006531:</div>\n<blockquote>\n<p>Additionally, when managing dependencies, would it be better to install packages individually using pip or list them in a requirements.txt file?</p>\n</blockquote>\n</aside>\n<p>Coming to your second question,</p>\n<p>The first time you install a fresh dependency, use direct and latest version. But if you are cloning or thinking of sharing the repo or using someone\u2019s project it\u2019s better to use requirements.txt.</p>\n<hr>\n<aside class=\"quote group-ds-students\" data-username=\"24f2006531\" data-post=\"1\" data-topic=\"165922\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2006531/48/111700_2.png\" class=\"avatar\"> 24f2006531:</div>\n<blockquote>\n<p>My understanding is that if a version is not specified in the requirements.txt file, it installs the latest available version, whereas specifying a version ensures a specific installation</p>\n</blockquote>\n</aside>\n<p>The creation of requirements.txt ensures that the current installation version is listed.</p>\n<blockquote>\n<p>Never try to list requirements.txt. There is a command to do that, <code>pip3 freeze &gt; requirements.txt </code>. This does the hard work of listing the dependencies for you</p>\n</blockquote>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-31T06:54:16.291Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 1,
+    "incoming_link_count": 0,
+    "reads": 17,
+    "readers_count": 16,
+    "score": 32.8,
+    "yours": false,
+    "topic_id": 165922,
+    "topic_slug": "best-practices-for-virtual-environments-and-dependency-management-in-python",
+    "display_username": "Harsh Shah",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 22479,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/best-practices-for-virtual-environments-and-dependency-management-in-python/165922/3",
+    "user_cakedate": "2023-09-22",
+    "user_birthdate": "1904-02-21",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 588159,
+    "name": "Shalini Saravanan",
+    "username": "24f2006531",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2006531/{size}/111700_2.png",
+    "created_at": "2025-01-31T07:07:47.354Z",
+    "cooked": "<p>Thank you sir for clarifying.</p>\n<aside class=\"quote group-ds-students\" data-username=\"carlton\" data-post=\"2\" data-topic=\"165922\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/48/56317_2.png\" class=\"avatar\"> carlton:</div>\n<blockquote>\n<p>\u2022 Using <strong>greater than/less than constraints</strong>: package&gt;=1.2,&lt;2.0 (allows updates but avoids major version changes).</p>\n</blockquote>\n</aside>\n<p>I wasn\u2019t aware of greater than/less than constraint. This would definitely address the error I mentioned in my question.</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-31T07:07:47.354Z",
+    "reply_count": 0,
+    "reply_to_post_number": 2,
+    "quote_count": 1,
+    "incoming_link_count": 0,
+    "reads": 15,
+    "readers_count": 14,
+    "score": 2.2,
+    "yours": false,
+    "topic_id": 165922,
+    "topic_slug": "best-practices-for-virtual-environments-and-dependency-management-in-python",
+    "display_username": "Shalini Saravanan",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 36236,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/best-practices-for-virtual-environments-and-dependency-management-in-python/165922/4",
+    "user_cakedate": "2024-09-21",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

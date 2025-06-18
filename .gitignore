@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Exclude cookies
+discourse_cookies.pkl
+
+# VSCode or IDE folders
+.vscode/
+.idea/
+
+# Python packaging artifacts
+*.egg-info/
+dist/
+build/
+.eggs/

@@ -1,0 +1,1443 @@
+[
+  {
+    "id": 600396,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-02-26T15:49:28.464Z",
+    "cooked": "<p>Whoever wants can participate and then we go into breakout rooms and each group solves a particular question and then we all share the code so we can complete the ROE faster and more effienctly?<br>\n<span class=\"mention\">@all</span></p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-03-02T07:28:43.747Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 29,
+    "reads": 98,
+    "readers_count": 97,
+    "score": 268.2,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 7,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/1",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 7
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 7,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 600397,
+    "name": "Manit Bohra",
+    "username": "ItsMeAlex",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/itsmealex/{size}/119167_2.png",
+    "created_at": "2025-02-26T15:55:03.430Z",
+    "cooked": "<p>Are we allowed to do that?</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T15:55:03.430Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 89,
+    "readers_count": 88,
+    "score": 21.4,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Manit Bohra",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 32468,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/2",
+    "user_cakedate": "2024-06-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600398,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-02-26T15:55:53.574Z",
+    "cooked": "<p>Yeah they said you can take help anyway possible even  to ask a cat also or a pet, im not sure</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T15:55:53.574Z",
+    "reply_count": 1,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 86,
+    "readers_count": 85,
+    "score": 21.0,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 32468,
+      "username": "ItsMeAlex",
+      "name": "Manit Bohra",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/itsmealex/{size}/119167_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/3",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600399,
+    "name": "Manit Bohra",
+    "username": "ItsMeAlex",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/itsmealex/{size}/119167_2.png",
+    "created_at": "2025-02-26T15:56:39.829Z",
+    "cooked": "<p>Alright, works. I am down to collaborate.</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T15:56:39.829Z",
+    "reply_count": 0,
+    "reply_to_post_number": 3,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 82,
+    "readers_count": 81,
+    "score": 15.6,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Manit Bohra",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 18297,
+      "username": "23f1002382",
+      "name": "Andrew David",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 32468,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/4",
+    "user_cakedate": "2024-06-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600400,
+    "name": "Trebhuvan SB",
+    "username": "trebhuvansb",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/trebhuvansb/{size}/109875_2.png",
+    "created_at": "2025-02-26T15:57:23.258Z",
+    "cooked": "<p>Asking help is different from sharing answers in a public forum. I don\u2019t think they will permit this.</p>",
+    "post_number": 5,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T15:57:23.258Z",
+    "reply_count": 3,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 78,
+    "readers_count": 77,
+    "score": 29.8,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Trebhuvan SB",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 36619,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/5",
+    "user_cakedate": "2024-09-21",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600401,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-02-26T15:58:01.998Z",
+    "cooked": "<p>Sharing answers is asking for help</p>",
+    "post_number": 6,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T15:58:01.998Z",
+    "reply_count": 0,
+    "reply_to_post_number": 5,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 76,
+    "readers_count": 75,
+    "score": 14.6,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 36619,
+      "username": "trebhuvansb",
+      "name": "Trebhuvan SB",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/trebhuvansb/{size}/109875_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/6",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600402,
+    "name": "Manit Bohra",
+    "username": "ItsMeAlex",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/itsmealex/{size}/119167_2.png",
+    "created_at": "2025-02-26T15:58:17.610Z",
+    "cooked": "<p>If the ROE is like how it was for MOCK ROE1 then this probably wont work right?<br>\nOnly for today\u2019s ROE(mock 2) we can split  the tasks efficiently and get it done.<br>\nThoughts?</p>",
+    "post_number": 7,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T15:58:17.610Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 75,
+    "readers_count": 74,
+    "score": 19.4,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Manit Bohra",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 32468,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/7",
+    "user_cakedate": "2024-06-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600403,
+    "name": "Manit Bohra",
+    "username": "ItsMeAlex",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/itsmealex/{size}/119167_2.png",
+    "created_at": "2025-02-26T15:59:11.906Z",
+    "cooked": "<aside class=\"quote group-ds-students\" data-username=\"trebhuvansb\" data-post=\"5\" data-topic=\"168567\" data-full=\"true\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/trebhuvansb/48/109875_2.png\" class=\"avatar\"> trebhuvansb:</div>\n<blockquote>\n<p>Asking help is different from sharing answers in a public forum. I don\u2019t think they will permit this.</p>\n</blockquote>\n</aside>\n<p>this is valid. should we just ask them? Could u message a TA?</p>",
+    "post_number": 8,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T15:59:11.906Z",
+    "reply_count": 0,
+    "reply_to_post_number": 5,
+    "quote_count": 1,
+    "incoming_link_count": 1,
+    "reads": 78,
+    "readers_count": 77,
+    "score": 20.0,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Manit Bohra",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 32468,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/8",
+    "user_cakedate": "2024-06-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600404,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-02-26T15:59:14.516Z",
+    "cooked": "<p>Yeah thats the idea\u2026</p>",
+    "post_number": 9,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T15:59:14.516Z",
+    "reply_count": 0,
+    "reply_to_post_number": 7,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 78,
+    "readers_count": 77,
+    "score": 15.0,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 32468,
+      "username": "ItsMeAlex",
+      "name": "Manit Bohra",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/itsmealex/{size}/119167_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/9",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600405,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-02-26T15:59:28.646Z",
+    "cooked": "<aside class=\"quote quote-modified\" data-post=\"2\" data-topic=\"99838\">\n  <div class=\"title\">\n    <div class=\"quote-controls\"></div>\n    <img alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/48/15264_2.png\" class=\"avatar\">\n    <a href=\"https://discourse.onlinedegree.iitm.ac.in/t/whats-the-actual-purpose-of-impossible-roe-exam/99838/2\">What's the actual purpose of impossible ROE exam?</a> <a class=\"badge-category__wrapper \" href=\"/c/courses/tds-kb/34\"><span data-category-id=\"34\" style=\"--category-badge-color: #0088CC; --category-badge-text-color: #FFFFFF; --parent-category-badge-color: #3AB54A;\" data-parent-category-id=\"9\" data-drop-close=\"true\" class=\"badge-category --has-parent\" title=\"This category is created to address subject-specific queries related to Tools in Data Science\"><span class=\"badge-category__name\">Tools in Data Science</span></span></a>\n  </div>\n  <blockquote>\n    <a class=\"mention\" href=\"/u/ankit.jain\">@ankit.jain</a> \u2013 I\u2019m the culprit behind this RoE structure. Thanks for the opportunity to share my thought process. \nWhat does this RoE evaluate? Implicit learning. \n\nImplicit learning is \u201cHow much can they answer if woken up from sleep?\u201d\nExplicit learning is \u201cHow much can they answer given time and Internet?\u201d\n\nSome may know 10% implicitly. Some know 50%. They\u2019ll answer those in a few seconds. \nSome, they can FIND out. with Google, StackOverflow, ChatGPT. That\u2019s explicit learning. But it takes time\u2026\n  </blockquote>\n</aside>\n",
+    "post_number": 10,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T15:59:28.646Z",
+    "reply_count": 1,
+    "reply_to_post_number": 5,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 78,
+    "readers_count": 77,
+    "score": 20.0,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://discourse.onlinedegree.iitm.ac.in/t/whats-the-actual-purpose-of-impossible-roe-exam/99838/2",
+        "internal": true,
+        "reflection": false,
+        "title": "What's the actual purpose of impossible ROE exam?",
+        "clicks": 0
+      }
+    ],
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 36619,
+      "username": "trebhuvansb",
+      "name": "Trebhuvan SB",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/trebhuvansb/{size}/109875_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/10",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600407,
+    "name": "Trebhuvan SB",
+    "username": "trebhuvansb",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/trebhuvansb/{size}/109875_2.png",
+    "created_at": "2025-02-26T16:01:28.501Z",
+    "cooked": "<p>Their whole concept of implicit learning disappears when people start sharing answers in a public forum.</p>",
+    "post_number": 11,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T16:01:28.501Z",
+    "reply_count": 1,
+    "reply_to_post_number": 10,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 78,
+    "readers_count": 77,
+    "score": 20.0,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Trebhuvan SB",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 18297,
+      "username": "23f1002382",
+      "name": "Andrew David",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 36619,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/11",
+    "user_cakedate": "2024-09-21",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600408,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-02-26T16:03:20.750Z",
+    "cooked": "<aside class=\"quote no-group\" data-username=\"What's the actual purpose of impossible ROE exam?\" data-post=\"2\" data-topic=\"99838\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<a href=\"/t/99838/2\">On another topic</a></div>\n<blockquote>\n<p>et?</p>\n</blockquote>\n</aside>\n<p>read the post, its about explicit learning xD<br>\nEDIT its implicit my bad !</p>",
+    "post_number": 12,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T16:04:00.339Z",
+    "reply_count": 0,
+    "reply_to_post_number": 11,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 78,
+    "readers_count": 77,
+    "score": 15.0,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://discourse.onlinedegree.iitm.ac.in/t/whats-the-actual-purpose-of-impossible-roe-exam/99838/2",
+        "internal": true,
+        "reflection": false,
+        "title": "What's the actual purpose of impossible ROE exam?",
+        "clicks": 0
+      }
+    ],
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 36619,
+      "username": "trebhuvansb",
+      "name": "Trebhuvan SB",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/trebhuvansb/{size}/109875_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/12",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600409,
+    "name": "Trebhuvan SB",
+    "username": "trebhuvansb",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/trebhuvansb/{size}/109875_2.png",
+    "created_at": "2025-02-26T16:05:01.591Z",
+    "cooked": "<p>off topic, how do you dm people on discourse?</p>",
+    "post_number": 13,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T16:05:01.591Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 78,
+    "readers_count": 77,
+    "score": 15.0,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Trebhuvan SB",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 36619,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/13",
+    "user_cakedate": "2024-09-21",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600410,
+    "name": "shivam dubey",
+    "username": "23f1002279",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002279/{size}/66833_2.png",
+    "created_at": "2025-02-26T16:05:14.381Z",
+    "cooked": "<p>So, are we using this thread, or should we make a Google space or something?</p>",
+    "post_number": 14,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T16:05:14.381Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 80,
+    "readers_count": 79,
+    "score": 15.0,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "shivam dubey",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 19275,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/14",
+    "user_cakedate": "2023-06-08",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600411,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-02-26T16:06:06.736Z",
+    "cooked": "<p>I created a discord</p><aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://discord.com/invite/vFTqFMw6\">\n  <header class=\"source\">\n      <img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/0/6/069dfcbf1c98ea2160a1c33abb79107eaf6f2b36.png\" class=\"site-icon\" data-dominant-color=\"8891F6\" width=\"256\" height=\"256\">\n\n      <a href=\"https://discord.com/invite/vFTqFMw6\" target=\"_blank\" rel=\"noopener nofollow ugc\">Discord</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    \n\n<h3><a href=\"https://discord.com/invite/vFTqFMw6\" target=\"_blank\" rel=\"noopener nofollow ugc\">Join the ACING ROE 1 Discord Server!</a></h3>\n\n  <p>Check out the ACING ROE 1 community on Discord \u2013 hang out with 1 other members and enjoy free voice and text chat.</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n<p><span class=\"mention\">@all</span></p>",
+    "post_number": 15,
+    "post_type": 1,
+    "posts_count": 15,
+    "updated_at": "2025-02-26T16:06:06.736Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 3,
+    "reads": 79,
+    "readers_count": 78,
+    "score": 44.6,
+    "yours": false,
+    "topic_id": 168567,
+    "topic_slug": "create-a-question-solving-groups-for-roe",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://discord.com/invite/vFTqFMw6",
+        "internal": false,
+        "reflection": false,
+        "title": "ACING ROE 1",
+        "clicks": 30
+      }
+    ],
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/create-a-question-solving-groups-for-roe/168567/15",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  }
+]

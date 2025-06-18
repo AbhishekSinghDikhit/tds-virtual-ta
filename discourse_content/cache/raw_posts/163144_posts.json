@@ -1,0 +1,191 @@
+[
+  {
+    "id": 579333,
+    "name": "Divyasree",
+    "username": "Divya1",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/divya1/{size}/67525_2.png",
+    "created_at": "2025-01-13T15:35:53.326Z",
+    "cooked": "<p>My doubt is that \u201cWill there be any coding level questions in the ROE and the weekly graded assignments?\u201d</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-01-13T15:35:53.326Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 43,
+    "readers_count": 42,
+    "score": 7.6,
+    "yours": false,
+    "topic_id": 163144,
+    "topic_slug": "way-of-conduction-of-exam",
+    "display_username": "Divyasree",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 33695,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/way-of-conduction-of-exam/163144/1",
+    "user_cakedate": "2024-06-09",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 579345,
+    "name": "ADITYA SIDDHARTH JYOTI",
+    "username": "ADI_1792",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/adi_1792/{size}/70618_2.png",
+    "created_at": "2025-01-13T15:48:49.846Z",
+    "cooked": "<p>In ROE , usually you have to find the answers of the questions by solving them using codes and tools explained in the course .</p>\n<p>For example you have a large pdf file of some patients and their disease and you are said to find number patients having some XYZ disease in that pdf . Now you can get this answer by using parsing tools and few lines of codes and after getting the results you can write that answer back in the portal .</p>\n<p>Same goes for assignments , they will be more like minor project works.</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-01-13T15:48:49.846Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 41,
+    "readers_count": 40,
+    "score": 22.2,
+    "yours": false,
+    "topic_id": 163144,
+    "topic_slug": "way-of-conduction-of-exam",
+    "display_username": "ADITYA SIDDHARTH JYOTI",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 15828,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/way-of-conduction-of-exam/163144/2",
+    "user_cakedate": "2023-01-25",
+    "user_birthdate": "1904-08-21",
+    "reactions": [
+      {
+        "id": "+1",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  }
+]

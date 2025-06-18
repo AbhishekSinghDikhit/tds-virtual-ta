@@ -1,0 +1,618 @@
+[
+  {
+    "id": 602891,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-03-03T07:17:32.847Z",
+    "cooked": "<h1><a name=\"p-602891-project-2-tds-solver-discussion-thread-1\" class=\"anchor\" href=\"#p-602891-project-2-tds-solver-discussion-thread-1\"></a>Project 2 - TDS Solver - Discussion Thread</h1>\n<h3><a name=\"p-602891-creating-this-thread-to-share-answers-and-questions-from-your-respective-assignments-2\" class=\"anchor\" href=\"#p-602891-creating-this-thread-to-share-answers-and-questions-from-your-respective-assignments-2\"></a>Creating this Thread to share answers and questions from your respective assignments</h3>\n<h3><a name=\"p-602891-why-3\" class=\"anchor\" href=\"#p-602891-why-3\"></a>Why? <img src=\"https://emoji.discourse-cdn.com/google/interrobang.png?v=12\" title=\":interrobang:\" class=\"emoji\" alt=\":interrobang:\" loading=\"lazy\" width=\"20\" height=\"20\"><img src=\"https://emoji.discourse-cdn.com/google/thinking.png?v=12\" title=\":thinking:\" class=\"emoji\" alt=\":thinking:\" loading=\"lazy\" width=\"20\" height=\"20\"></h3>\n<p>If we can Train the LLM with these Questions already, we can easily do well?</p>\n<h3><a name=\"p-602891-too-many-questions-for-llm-4\" class=\"anchor\" href=\"#p-602891-too-many-questions-for-llm-4\"></a>Too many Questions for LLM <img src=\"https://emoji.discourse-cdn.com/google/nerd_face.png?v=12\" title=\":nerd_face:\" class=\"emoji\" alt=\":nerd_face:\" loading=\"lazy\" width=\"20\" height=\"20\"><img src=\"https://emoji.discourse-cdn.com/google/nerd_face.png?v=12\" title=\":nerd_face:\" class=\"emoji\" alt=\":nerd_face:\" loading=\"lazy\" width=\"20\" height=\"20\"><img src=\"https://emoji.discourse-cdn.com/google/nerd_face.png?v=12\" title=\":nerd_face:\" class=\"emoji\" alt=\":nerd_face:\" loading=\"lazy\" width=\"20\" height=\"20\"></h3>\n<p>True we can use embeddings, map that stored in-system dictionary and use relevant questions from in-system data to send as context with answer</p>\n<h3><a name=\"p-602891-what-we-need-from-you-5\" class=\"anchor\" href=\"#p-602891-what-we-need-from-you-5\"></a>What We need from YOU \ud83e\udef5\ud83c\udffd</h3>\n<p>Get to scraping your respective Graded Assignments and post the it?</p>\n<h3><a name=\"p-602891-how-6\" class=\"anchor\" href=\"#p-602891-how-6\"></a>How?</h3>\n<ul>\n<li>If answers are saved, Just Print (Ctrl+P) and save pdf, not really if this would work</li>\n<li>If you had saved code for each question, send the saved code and with a docstring as the question , This would be useful <img src=\"https://emoji.discourse-cdn.com/google/+1/3.png?v=12\" title=\":+1:t3:\" class=\"emoji\" alt=\":+1:t3:\" loading=\"lazy\" width=\"20\" height=\"20\"><img src=\"https://emoji.discourse-cdn.com/google/+1/3.png?v=12\" title=\":+1:t3:\" class=\"emoji\" alt=\":+1:t3:\" loading=\"lazy\" width=\"20\" height=\"20\"></li>\n</ul>\n<h3><a name=\"p-602891-where-7\" class=\"anchor\" href=\"#p-602891-where-7\"></a>Where?<img src=\"https://emoji.discourse-cdn.com/google/thinking.png?v=12\" title=\":thinking:\" class=\"emoji\" alt=\":thinking:\" loading=\"lazy\" width=\"20\" height=\"20\"><img src=\"https://emoji.discourse-cdn.com/google/man_shrugging/3.png?v=12\" title=\":man_shrugging:t3:\" class=\"emoji\" alt=\":man_shrugging:t3:\" loading=\"lazy\" width=\"20\" height=\"20\"><img src=\"https://emoji.discourse-cdn.com/google/man_shrugging/3.png?v=12\" title=\":man_shrugging:t3:\" class=\"emoji\" alt=\":man_shrugging:t3:\" loading=\"lazy\" width=\"20\" height=\"20\"></h3>\n<aside class=\"onebox githubblob\" data-onebox-src=\"https://github.com/ANdIeCOOl/TDS-Project2-QuestionBank/blob/main/README.md\">\n  <header class=\"source\">\n\n      <a href=\"https://github.com/ANdIeCOOl/TDS-Project2-QuestionBank/blob/main/README.md\" target=\"_blank\" rel=\"noopener nofollow ugc\">github.com/ANdIeCOOl/TDS-Project2-QuestionBank</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <h4><a href=\"https://github.com/ANdIeCOOl/TDS-Project2-QuestionBank/blob/main/README.md\" target=\"_blank\" rel=\"noopener nofollow ugc\">README.md</a></h4>\n\n<div class=\"git-blob-info\">\n  <a href=\"https://github.com/ANdIeCOOl/TDS-Project2-QuestionBank/blob/main/README.md\" rel=\"noopener nofollow ugc\"><code>main</code></a>\n</div>\n\n\n      <pre><code class=\"lang-md\"># TDS-Project2-QuestionBank\nQuestion Bank for all TDS assignments\n\n# Requested format\n## Student Assignments Directory Structure\n\nEach student has a folder named with their roll number. Inside each student's folder, there are multiple assignment folders (`Assignment_X`). Each assignment contains:\n- A `.txt` file with the question statement.\n- A corresponding `.py`, `.sh`, or `.js` file for the solution.\n\n### Example Directory Structure\nRollNo_12345/\n\u251c\u2500\u2500 Assignment_1/\n\u2502   \u251c\u2500\u2500 Q1.txt    # Question for Q1\n\u2502   \u251c\u2500\u2500 Q1.py     # Solution in Python\n\u2502   \u251c\u2500\u2500 Q2.txt    # Question for Q2\n\u2502   \u251c\u2500\u2500 Q2.sh     # Solution in Bash\n\u2502   \u251c\u2500\u2500 Q3.txt    # Question for Q3\n\u2502   \u251c\u2500\u2500 Q3.js     # Solution in JavaScript\n\u251c\u2500\u2500 Assignment_2/\n</code></pre>\n\n\n\n  This file has been truncated. <a href=\"https://github.com/ANdIeCOOl/TDS-Project2-QuestionBank/blob/main/README.md\" target=\"_blank\" rel=\"noopener nofollow ugc\">show original</a>\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n\n<p>Please note, Please send the code it would make the LLM more idk \u201cbetter\u201d</p>\n<p>Cheers,<br>\nAndrew out. <img src=\"https://emoji.discourse-cdn.com/google/facepunch/4.png?v=12\" title=\":facepunch:t4:\" class=\"emoji\" alt=\":facepunch:t4:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\n<span class=\"mention\">@all</span></p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-03T07:32:42.547Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 27,
+    "reads": 137,
+    "readers_count": 136,
+    "score": 281.2,
+    "yours": false,
+    "topic_id": 169045,
+    "topic_slug": "project-2-tds-solver-shared-data-pool",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 3,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://github.com/ANdIeCOOl/TDS-Project2-QuestionBank/blob/main/README.md",
+        "internal": false,
+        "reflection": false,
+        "title": "TDS-Project2-QuestionBank/README.md at main \u00b7 ANdIeCOOl/TDS-Project2-QuestionBank \u00b7 GitHub",
+        "clicks": 72
+      },
+      {
+        "url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-discussion-thread/169029/3",
+        "internal": true,
+        "reflection": true,
+        "title": "Project 2 - TDS Solver - Discussion Thread",
+        "clicks": 2
+      }
+    ],
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 8,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/project-2-tds-solver-shared-data-pool/169045/1",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 5
+      },
+      {
+        "id": "+1",
+        "type": "emoji",
+        "count": 3
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 8,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 602892,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-03-03T07:20:38.141Z",
+    "cooked": "<p>This time I\u2019ll create a functioning script way before deadline for everyone to use .<br>\n<img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/a/2/a2ca53960e1ef9d9566dd1648096df09332e6310.gif\" alt=\"OnePieceStrawhatsGIF\" data-base62-sha1=\"ne6PD7vhrLy6v5S21qlbK2Rdi0w\" width=\"498\" height=\"278\" class=\"animated\"></p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-03T07:22:41.158Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 125,
+    "readers_count": 124,
+    "score": 69.6,
+    "yours": false,
+    "topic_id": 169045,
+    "topic_slug": "project-2-tds-solver-shared-data-pool",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 3,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/project-2-tds-solver-shared-data-pool/169045/2",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 3
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 3,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 603007,
+    "name": "Jivraj Singh Shekhawat",
+    "username": "Jivraj",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+    "created_at": "2025-03-03T11:21:09.094Z",
+    "cooked": "<p>Hi <a class=\"mention\" href=\"/u/23f1002382\">@23f1002382</a></p>\n<p>Great initiative, will be happy to see lot of PR\u2019s on your repo.</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-03T11:21:09.094Z",
+    "reply_count": 2,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 121,
+    "readers_count": 120,
+    "score": 48.8,
+    "yours": false,
+    "topic_id": 169045,
+    "topic_slug": "project-2-tds-solver-shared-data-pool",
+    "display_username": "Jivraj Singh Shekhawat",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Course TA",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 15651,
+    "hidden": false,
+    "trust_level": 2,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/project-2-tds-solver-shared-data-pool/169045/3",
+    "user_cakedate": "2023-01-25",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 603030,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-03-03T11:45:57.715Z",
+    "cooked": "<aside class=\"quote group-ds-students\" data-username=\"Jivraj\" data-post=\"3\" data-topic=\"169045\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/48.png\" class=\"avatar\"> Jivraj:</div>\n<blockquote>\n<p>e, will be happy to see lot of PR\u2019s on your re</p>\n</blockquote>\n</aside>\n<p>Will <img src=\"https://emoji.discourse-cdn.com/google/x.png?v=12\" title=\":x:\" class=\"emoji\" alt=\":x:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\nHopefully <img src=\"https://emoji.discourse-cdn.com/google/white_check_mark.png?v=12\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\n\u2026</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-03T11:45:57.715Z",
+    "reply_count": 0,
+    "reply_to_post_number": 3,
+    "quote_count": 1,
+    "incoming_link_count": 1,
+    "reads": 122,
+    "readers_count": 121,
+    "score": 29.0,
+    "yours": false,
+    "topic_id": 169045,
+    "topic_slug": "project-2-tds-solver-shared-data-pool",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/project-2-tds-solver-shared-data-pool/169045/4",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 603343,
+    "name": "Aniruddha Mukherjee",
+    "username": "23f1003186",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1003186/{size}/66745_2.png",
+    "created_at": "2025-03-04T08:58:05.322Z",
+    "cooked": "<p>Already did a PR although it was a minor formatting one xDD</p>",
+    "post_number": 6,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-04T08:58:05.322Z",
+    "reply_count": 1,
+    "reply_to_post_number": 3,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 109,
+    "readers_count": 108,
+    "score": 40.8,
+    "yours": false,
+    "topic_id": 169045,
+    "topic_slug": "project-2-tds-solver-shared-data-pool",
+    "display_username": "Aniruddha Mukherjee",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 15651,
+      "username": "Jivraj",
+      "name": "Jivraj Singh Shekhawat",
+      "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 19230,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/project-2-tds-solver-shared-data-pool/169045/6",
+    "user_cakedate": "2023-06-08",
+    "user_birthdate": "1904-09-19",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 603352,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-03-04T09:29:48.657Z",
+    "cooked": "<p>yeah thanks that helped a lot actually</p>",
+    "post_number": 7,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-04T09:29:48.657Z",
+    "reply_count": 0,
+    "reply_to_post_number": 6,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 108,
+    "readers_count": 107,
+    "score": 40.6,
+    "yours": false,
+    "topic_id": 169045,
+    "topic_slug": "project-2-tds-solver-shared-data-pool",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 19230,
+      "username": "23f1003186",
+      "name": "Aniruddha Mukherjee",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1003186/{size}/66745_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/project-2-tds-solver-shared-data-pool/169045/7",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

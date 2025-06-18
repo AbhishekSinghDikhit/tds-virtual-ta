@@ -1,0 +1,586 @@
+[
+  {
+    "id": 611922,
+    "name": "Aarush saxena ",
+    "username": "23f2005702",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2005702/{size}/88240_2.png",
+    "created_at": "2025-03-27T11:40:53.676Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/s.anand\">@s.anand</a> <a class=\"mention\" href=\"/u/carlton\">@carlton</a> <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a> <a class=\"mention\" href=\"/u/saransh_saini\">@Saransh_Saini</a></p>\n<p>I would like to share that we have successfully completed <strong>TDS Project 2</strong>, solving <strong>46/57</strong> cases dynamically via <strong>Azure after deployment</strong>! We also tested it with our friends\u2019 <strong>GA questions</strong>, and it\u2019s working as expected.</p>\n<p>This project was a <strong>team effort</strong> by me and two friends [ <a class=\"mention\" href=\"/u/lakshaygarg654\">@lakshaygarg654</a> and <a class=\"mention\" href=\"/u/23f2004637\">@23f2004637</a> ], and we are thrilled with the results post-deployment.</p>\n<p>I would love the opportunity to <strong>demonstrate our project</strong> to <strong>TA and Anand Sir</strong> in a <strong>Google Meet session</strong> on <strong>March 31st</strong> (since I have OPPE on the 29th and 30th).</p>\n<p>If you can spare some time for a quick look at our project, it would be awesome! Looking forward to your response.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-27T11:40:53.676Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 6,
+    "reads": 138,
+    "readers_count": 137,
+    "score": 101.6,
+    "yours": false,
+    "topic_id": 171054,
+    "topic_slug": "successfully-completed-tds-project-2-seeking-feedback-demonstration-session",
+    "display_username": "Aarush saxena ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 3,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 25223,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/successfully-completed-tds-project-2-seeking-feedback-demonstration-session/171054/1",
+    "user_cakedate": "2024-01-19",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 3
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 3,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 611926,
+    "name": "Saransh Saini",
+    "username": "Saransh_Saini",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png",
+    "created_at": "2025-03-27T11:53:27.567Z",
+    "cooked": "<p>Hi <a class=\"mention\" href=\"/u/23f2005702\">@23f2005702</a> <a class=\"mention\" href=\"/u/lakshaygarg654\">@lakshaygarg654</a><br>\nFirstly, congratulations on your success. And surely you can demonstrate your project. It would be great if you demonstrate it in today\u2019s live session at 8pm. Otherwise next week is all about project 2 discussion.</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-27T11:53:27.567Z",
+    "reply_count": 2,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 5,
+    "reads": 132,
+    "readers_count": 131,
+    "score": 76.0,
+    "yours": false,
+    "topic_id": 171054,
+    "topic_slug": "successfully-completed-tds-project-2-seeking-feedback-demonstration-session",
+    "display_username": "Saransh Saini",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": "Course TA",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 13078,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/successfully-completed-tds-project-2-seeking-feedback-demonstration-session/171054/2",
+    "user_cakedate": "2022-05-02",
+    "user_birthdate": "1904-08-04",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 611927,
+    "name": "Aarush saxena ",
+    "username": "23f2005702",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2005702/{size}/88240_2.png",
+    "created_at": "2025-03-27T11:57:18.945Z",
+    "cooked": "<p>Thank you for the opportunity! However, I won\u2019t be able to present the project in a public session as my <strong>Azure API URL would be exposed</strong>, and since it incurs <strong>costs per usage</strong>, I need to keep it secure.</p>\n<p>I\u2019d prefer a <strong>private meet</strong> to demonstrate the project. Please let me know if that can be arranged. Looking forward to discussing it!</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-27T11:57:18.945Z",
+    "reply_count": 0,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 129,
+    "readers_count": 128,
+    "score": 45.4,
+    "yours": false,
+    "topic_id": 171054,
+    "topic_slug": "successfully-completed-tds-project-2-seeking-feedback-demonstration-session",
+    "display_username": "Aarush saxena ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": "",
+    "reply_to_user": {
+      "id": 13078,
+      "username": "Saransh_Saini",
+      "name": "Saransh Saini",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 25223,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/successfully-completed-tds-project-2-seeking-feedback-demonstration-session/171054/3",
+    "user_cakedate": "2024-01-19",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 611942,
+    "name": "Pradeep Mondal",
+    "username": "21f2000709",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f2000709/{size}/92157_2.png",
+    "created_at": "2025-03-27T12:27:37.331Z",
+    "cooked": "<p>That\u2019s amazing <a class=\"mention\" href=\"/u/23f2005702\">@23f2005702</a> ,<br>\nso far I have completed till 44 Qs and deployed it on azure too !! Mine is solving around 40 correctly out of these 44 (checked with another user\u2019s login on the portal).</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-27T12:28:04.914Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 123,
+    "readers_count": 122,
+    "score": 59.4,
+    "yours": false,
+    "topic_id": 171054,
+    "topic_slug": "successfully-completed-tds-project-2-seeking-feedback-demonstration-session",
+    "display_username": "Pradeep Mondal",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 7034,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/successfully-completed-tds-project-2-seeking-feedback-demonstration-session/171054/4",
+    "user_cakedate": "2021-09-09",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 611947,
+    "name": "LAKSHAY",
+    "username": "lakshaygarg654",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/lakshaygarg654/{size}/129814_2.png",
+    "created_at": "2025-03-27T12:44:46.440Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/saransh_saini\">@Saransh_Saini</a><br>\nI can\u2019t join the meet since I\u2019m out of station and don\u2019t have PC access. I also have other coursework, so I\u2019ll be available for a meet from the 31st onwards</p>",
+    "post_number": 5,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-27T12:44:46.440Z",
+    "reply_count": 0,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 124,
+    "readers_count": 123,
+    "score": 29.0,
+    "yours": false,
+    "topic_id": 171054,
+    "topic_slug": "successfully-completed-tds-project-2-seeking-feedback-demonstration-session",
+    "display_username": "LAKSHAY",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 13078,
+      "username": "Saransh_Saini",
+      "name": "Saransh Saini",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 7193,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/successfully-completed-tds-project-2-seeking-feedback-demonstration-session/171054/5",
+    "user_cakedate": "2021-09-12",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 613780,
+    "name": "Aryan Singh",
+    "username": "Aryxn",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/a/9d8465/{size}.png",
+    "created_at": "2025-03-31T07:29:24.499Z",
+    "cooked": "<p>Congrats for your project mate!<br>\nJust wanted to ask how did you frame your questions for the Graded Assignments? Cause that will help me complete mine.<br>\nThanks in advance</p>",
+    "post_number": 6,
+    "post_type": 1,
+    "posts_count": 6,
+    "updated_at": "2025-03-31T07:29:24.499Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 63,
+    "readers_count": 62,
+    "score": 11.8,
+    "yours": false,
+    "topic_id": 171054,
+    "topic_slug": "successfully-completed-tds-project-2-seeking-feedback-demonstration-session",
+    "display_username": "Aryan Singh",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 3146,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/successfully-completed-tds-project-2-seeking-feedback-demonstration-session/171054/6",
+    "user_cakedate": "2021-05-02",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

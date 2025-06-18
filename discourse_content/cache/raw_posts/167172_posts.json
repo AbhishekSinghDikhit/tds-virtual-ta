@@ -1,0 +1,1345 @@
+[
+  {
+    "id": 594941,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-14T12:38:47.883Z",
+    "cooked": "<p>sir i am getting an error in this function calling which you have demonstrate yesterday , i am attaching my code also the error with it. Please take a look and provide the solution as the deadline is close please help me as soon as possible.<br>\nis there anything to do with dockerfile or anything else please explain it how to do it step by step.</p>\n<pre><code class=\"lang-auto\">import os\nfrom dotenv import load_dotenv\nimport json\nimport requests\nfrom fastapi import FastAPI, HTTPException\nfrom fastapi.middleware.cors import CORSMiddleware\nimport pandas as pd\nfrom fastapi.responses import StreamingResponse, JSONResponse\nfrom typing import Dict, Any, List\nimport subprocess\nimport datetime\nfrom pathlib import Path\nimport sqlite3\n\napp = FastAPI()\n\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,\n    allow_methods=[\"GET\", \"POST\"],\n    allow_headers=[\"*\"],\n)\n\n#AIPROXY_TOKEN = os.getenv(\"AIPROXY_TOKEN\")\nload_dotenv()\nAIPROXY_TOKEN = os.getenv(\"AIPROXY_TOKEN\", \"enter your token here\")\n\n\ndef sort_contacts(contacts_file_path: str, output_file_path: str):\n    try:\n        contacts = pd.read_json(contacts_file_path)\n        contacts.sort_values([\"last_name\", \"first_name\"]).to_json(output_file_path, orient=\"records\")\n        return {\"message\": f\"Contacts sorted and saved to {output_file_path}\"}\n    except Exception as e:\n        return {\"error\": f\"Failed to sort contacts: {str(e)}\"}\n\n\na4_tool = {\n    \"type\": \"function\",\n    \"function\": {\n        \"name\": \"sort_contacts\",\n        \"description\": \"This function takes data from a json file and sorts the data first by last name and then by first name, then it stores it inside the speicfied location.\",\n        \"parameters\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"contacts_file_path\": {\n                    \"type\": \"string\",\n                    \"description\": \"The relative path to the input JSON file containing the contacts.\"\n                },\n                \"output_file_path\": {\n                    \"type\": \"string\",\n                    \"description\": \"The relative path to the output JSON file to store the sorted contacts.\"\n                }\n            },\n            \"required\": [\"contacts_file_path\", \"output_file_path\"],\n            \"additionalProperties\": False\n        },\n        \"strict\": True\n    },\n}\n\n\ntools = [bakecake, a1_tool, a2_tool, a3_tool, a4_tool, a5_tool, a6_tool, a7_tool, a8_tool, a9_tool, a10_tool]\n\n\n\ndef query_gpt(user_input: str, tools: list[dict] = tools) -&gt; dict:\n    response = requests.post(\n        url=\"https://aiproxy.sanand.workers.dev/openai/v1/chat/completions\",\n        headers={\n            \"Content-Type\": \"application/json\",\n            \"Authorization\": f\"Bearer {AIPROXY_TOKEN}\"\n        },\n        json={\n            \"model\": \"gpt-4o-mini\",\n            \"messages\": [\n                {\n                    \"role\": \"user\",\n                    \"content\": user_input\n                }\n            ],\n            \"tools\": tools,\n            \"tool_choice\": \"auto\"\n        }\n    )\n    return response.json()\n\n@app.get(\"/\")\ndef home():\n    return {\"Hello\": \"World\"}\n\n@app.get(\"/read\")\ndef read_file(path: str):\n    try:\n        with open(path, \"r\") as f:\n            return f.read()\n    except Exception as e:\n        raise HTTPException(status_code=404, detail=\"File does not exist\")\n\n@app.post(\"/run\")\nasync def run(task: str):\n    query = query_gpt(task)\n    print(query)  # Print the full response to inspect it.\n    \n    if 'choices' not in query:\n        raise HTTPException(status_code=500, detail=\"Invalid response format from GPT API\")\n    \n    try:\n        tool_calls = query['choices'][0]['message'].get('tool_calls', [])\n        if tool_calls:\n            func_name = tool_calls[0]['function']['name']\n            args = json.loads(tool_calls[0]['function']['arguments'])\n            \n            # Map function names to their respective functions\n            function_map = {\n                \"cakebake\": cakebake,\n                \"install_uv_and_run_datagen\": install_uv_and_run_datagen,\n                \"format_markdown_file\": format_markdown_file,\n                \"count_wednesdays\": count_wednesdays,\n                \"sort_contacts\": sort_contacts,\n                \"extract_recent_logs\": extract_recent_logs,\n                \"create_markdown_index\": create_markdown_index,\n                \"extract_sender_email\": extract_sender_email,\n                \"extract_credit_card_number\": extract_credit_card_number,\n                \"find_similar_comments\": find_similar_comments,\n                \"calculate_gold_ticket_sales\": calculate_gold_ticket_sales,\n            }\n            \n            if func_name in function_map:\n                output = function_map[func_name](**args)\n            else:\n                raise HTTPException(status_code=500, detail=\"Unknown function called\")\n        else:\n            raise HTTPException(status_code=500, detail=\"No function call found in response\")\n    except KeyError as e:\n        raise HTTPException(status_code=500, detail=f\"KeyError: Missing key in response - {str(e)}\")\n    except Exception as e:\n        raise HTTPException(status_code=500, detail=f\"Error processing the request: {str(e)}\")\n    \n    return output\n\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)\n</code></pre>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/2/5/255972d284f089960091b482f45a9c8f83919195.png\" data-download-href=\"/uploads/short-url/5kpj9Kh1zIaAJZmIig1SCQTXOtL.png?dl=1\" title=\"Screenshot 2025-02-14 171217\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/2/5/255972d284f089960091b482f45a9c8f83919195_2_690x446.png\" alt=\"Screenshot 2025-02-14 171217\" data-base62-sha1=\"5kpj9Kh1zIaAJZmIig1SCQTXOtL\" width=\"690\" height=\"446\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/2/5/255972d284f089960091b482f45a9c8f83919195_2_690x446.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/2/5/255972d284f089960091b482f45a9c8f83919195_2_1035x669.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/2/5/255972d284f089960091b482f45a9c8f83919195_2_1380x892.png 2x\" data-dominant-color=\"272728\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">Screenshot 2025-02-14 171217</span><span class=\"informations\">2075\u00d71343 176 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p><a class=\"mention\" href=\"/u/saransh_saini\">@Saransh_Saini</a> , <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a> , <a class=\"mention\" href=\"/u/carlton\">@carlton</a></p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-17T19:05:28.645Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 2,
+    "reads": 46,
+    "readers_count": 45,
+    "score": 18.2,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 3,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/1",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 594951,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-02-14T13:01:08.797Z",
+    "cooked": "<p>Hi Sakshi,</p>\n<p>The error is quite clear, it cannot find the file /data/contacts.json</p>\n<p>Question: What creates the /data/contacts.json file?</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T13:01:08.797Z",
+    "reply_count": 2,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 34,
+    "readers_count": 33,
+    "score": 16.6,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/2",
+    "user_cakedate": "2023-01-25",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 594962,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-14T13:30:26.445Z",
+    "cooked": "<p>so how to do it sir that the thing i am not able to understand.</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T13:30:26.445Z",
+    "reply_count": 0,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 34,
+    "readers_count": 33,
+    "score": 6.6,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 16094,
+      "username": "carlton",
+      "name": "Carlton D'Silva",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/3",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 594971,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-14T13:59:34.581Z",
+    "cooked": "<p>sir kindly help me with this the time is running and i am still at the starting stage of project.<br>\n<a class=\"mention\" href=\"/u/carlton\">@carlton</a></p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T13:59:34.581Z",
+    "reply_count": 0,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 31,
+    "readers_count": 30,
+    "score": 6.0,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 16094,
+      "username": "carlton",
+      "name": "Carlton D'Silva",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/4",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 594980,
+    "name": "Saransh Saini",
+    "username": "Saransh_Saini",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png",
+    "created_at": "2025-02-14T14:16:24.088Z",
+    "cooked": "<p>Sakshi as the error says it\u2019s unable to find your file. Try adding a . (dot) before the location.</p>",
+    "post_number": 5,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T14:16:24.088Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 27,
+    "readers_count": 26,
+    "score": 10.2,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "Saransh Saini",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Course TA",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 13078,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/5",
+    "user_cakedate": "2022-05-02",
+    "user_birthdate": "1904-08-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 595001,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-14T14:32:12.846Z",
+    "cooked": "<p>sir i have used the dot(.) while sending the request to postman in the query which i provided to the task. Is the dot(.) should be added somewhere else?</p>",
+    "post_number": 6,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T14:32:12.846Z",
+    "reply_count": 1,
+    "reply_to_post_number": 5,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 28,
+    "readers_count": 27,
+    "score": 10.4,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 13078,
+      "username": "Saransh_Saini",
+      "name": "Saransh Saini",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/6",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 595018,
+    "name": "Saransh Saini",
+    "username": "Saransh_Saini",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png",
+    "created_at": "2025-02-14T15:07:26.713Z",
+    "cooked": "<p>If you have added that dot as a prefix to your locations then, you would have to structure your query_gpt in such a way that it takes these dots into consideration.</p>",
+    "post_number": 7,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T15:07:26.713Z",
+    "reply_count": 1,
+    "reply_to_post_number": 6,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 26,
+    "readers_count": 25,
+    "score": 10.0,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "Saransh Saini",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Course TA",
+    "title_is_group": false,
+    "reply_to_user": {
+      "id": 40000,
+      "username": "Sakshi6479",
+      "name": "SAKSHI PATHAK",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 13078,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/7",
+    "user_cakedate": "2022-05-02",
+    "user_birthdate": "1904-08-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 595104,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-14T17:48:35.347Z",
+    "cooked": "<p>sir i have tried that by putting by doing this</p>\n<pre><code class=\"lang-auto\">import os\nfrom dotenv import load_dotenv\nimport json\nimport requests\nfrom dateutil import parser as date_parser\nfrom sklearn.metrics.pairwise import cosine_similarity\nfrom fastapi import FastAPI, HTTPException\nfrom fastapi.middleware.cors import CORSMiddleware\nimport pandas as pd\nfrom fastapi.responses import StreamingResponse, JSONResponse\nfrom typing import Dict, Any, List\nimport subprocess\nimport datetime\nfrom pathlib import Path\nimport sqlite3\nimport base64\nimport mimetypes\nimport numpy as np\n\n\napp = FastAPI()\n\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,\n    allow_methods=[\"GET\", \"POST\"],\n    allow_headers=[\"*\"],\n)\n\n#AIPROXY_TOKEN = os.getenv(\"AIPROXY_TOKEN\")\nAIPROXY_TOKEN = os.getenv(\"AIPROXY_TOKEN\")\ndef cakebake(no_people: int, flavor: str):\n    return {\"message\": f\"Making a {flavor} cake for {no_people} people\"}\n\nbakecake = {\n    \"type\": \"function\",\n    \"function\": {\n        \"name\": \"cakebake\",\n        \"description\": \"Make a cake for all iitm students contain its emailids\",\n        \"parameters\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"no_people\": {\n                    \"type\": \"integer\",\n                    \"description\": \"Number of people\"\n                },\n                \"flavor\": {\n                    \"type\": \"string\",\n                    \"description\": \"Flavor of the cake\"\n                }\n            },\n            \"required\": [\"no_people\", \"flavor\"],\n            \"additionalProperties\": False\n        },\n        \"strict\": True\n    }\n}\n\ndef sort_contacts(contacts_file_path: str, output_file_path: str):\n    try:\n        contacts = pd.read_json(contacts_file_path)\n        contacts.sort_values([\"last_name\", \"first_name\"]).to_json(output_file_path, orient=\"records\")\n        return {\"message\": f\"Contacts sorted and saved to {output_file_path}\"}\n    except Exception as e:\n        return {\"error\": f\"Failed to sort contacts: {str(e)}\"}\n\ntools = [bakecake, a1_tool, a2_tool, a3_tool, a4_tool, a5_tool, a6_tool, a7_tool, a8_tool, a9_tool, a10_tool]\n\n\n\ndef query_gpt(user_input: str, tools: list[dict] = tools) -&gt; dict[str, Any]:\n    response = requests.post(\n        url=\"https://aiproxy.sanand.workers.dev/openai/v1/chat/completions\",\n        headers={\n            \"Content-Type\": \"application/json\",\n            \"Authorization\": f\"Bearer {AIPROXY_TOKEN}\"\n        },\n        json={\n            \"model\": \"gpt-4o-mini\",\n            \"messages\": [\n                {\n                    \"role\": \"system\",\n                    \"content\": \"\"\"\n                        Whenever you receive a system directory location, always make it into a realtive path, for example adding a . before it would make it relative path, rest is on you to manage, I just want the relative path\"\"\"\n                },\n                {\n                    \"role\": \"user\",\n                    \"content\": user_input\n                }\n            ],\n            \"tools\": tools,\n            \"tool_choice\": \"auto\"\n        }\n    )\n    return response.json()\n\n@app.get(\"/\")\ndef home():\n    return {\"Hello\": \"World\"}\n\n@app.get(\"/read\")\ndef read_file(path: str):\n    try:\n        with open(path, \"r\") as f:\n            return f.read()\n    except Exception as e:\n        raise HTTPException(status_code=404, detail=\"File does not exist\")\n\n@app.post(\"/run\")\nasync def run(task: str):\n    query = query_gpt(task)\n    print(query)  # Print the full response to inspect it.\n    \n    if 'choices' not in query:\n        raise HTTPException(status_code=500, detail=\"Invalid response format from GPT API\")\n    \n    try:\n        tool_calls = query['choices'][0]['message'].get('tool_calls', [])\n        if tool_calls:\n            func_name = tool_calls[0]['function']['name']\n            args = json.loads(tool_calls[0]['function']['arguments'])\n            \n            # Map function names to their respective functions\n            function_map = {\n                \"cakebake\": cakebake,\n                \"install_uv_and_run_datagen\": install_uv_and_run_datagen,\n                \"format_markdown_file\": format_markdown_file,\n                \"count_wednesdays\": count_wednesdays,\n                \"sort_contacts\": sort_contacts,\n                \"extract_recent_logs\": extract_recent_logs,\n                \"create_markdown_index\": create_markdown_index,\n                \"extract_sender_email\": extract_sender_email,\n                \"extract_credit_card_number\": extract_credit_card_number,\n                \"find_similar_comments\": find_similar_comments,\n                \"calculate_gold_ticket_sales\": calculate_gold_ticket_sales,\n            }\n            \n            if func_name in function_map:\n                output = function_map[func_name](**args)\n            else:\n                raise HTTPException(status_code=500, detail=\"Unknown function called\")\n        else:\n            raise HTTPException(status_code=500, detail=\"No function call found in response\")\n    except KeyError as e:\n        raise HTTPException(status_code=500, detail=f\"KeyError: Missing key in response - {str(e)}\")\n    except Exception as e:\n        raise HTTPException(status_code=500, detail=f\"Error processing the request: {str(e)}\")\n    \n    return output\n\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)\n</code></pre>\n<p>and also i am sending postman request as <a href=\"http://localhost:8000/run?task=The\" rel=\"noopener nofollow ugc\">http://localhost:8000/run?task=The</a> file ./data/dates.txt contains a list of dates, one per line. Count the number of Wednesdays in the list, and write just the number to ./data/dates-wednesdays.txt<br>\ndo I need to use dockerfile for this? i am still getting the same error as<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/3/c/3c786f00a8e4f37db2c31ff21edffb3e68396b59.png\" data-download-href=\"/uploads/short-url/8CWFUFCn1rd2HZakNRDmzHnnKmR.png?dl=1\" title=\"Screenshot 2025-02-14 231752\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/c/3c786f00a8e4f37db2c31ff21edffb3e68396b59_2_690x411.png\" alt=\"Screenshot 2025-02-14 231752\" data-base62-sha1=\"8CWFUFCn1rd2HZakNRDmzHnnKmR\" width=\"690\" height=\"411\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/c/3c786f00a8e4f37db2c31ff21edffb3e68396b59_2_690x411.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/c/3c786f00a8e4f37db2c31ff21edffb3e68396b59_2_1035x616.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/c/3c786f00a8e4f37db2c31ff21edffb3e68396b59_2_1380x822.png 2x\" data-dominant-color=\"272828\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">Screenshot 2025-02-14 231752</span><span class=\"informations\">1786\u00d71065 74.8 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n<a class=\"mention\" href=\"/u/carlton\">@carlton</a> , <a class=\"mention\" href=\"/u/saransh_saini\">@Saransh_Saini</a> , <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a></p>",
+    "post_number": 8,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T17:49:06.470Z",
+    "reply_count": 1,
+    "reply_to_post_number": 7,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 25,
+    "readers_count": 24,
+    "score": 9.8,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "http://localhost:8000/run?task=The",
+        "internal": false,
+        "reflection": false,
+        "clicks": 0
+      }
+    ],
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 13078,
+      "username": "Saransh_Saini",
+      "name": "Saransh Saini",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/8",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 595110,
+    "name": "Ansh bansal",
+    "username": "23f2004752",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004752/{size}/68296_2.png",
+    "created_at": "2025-02-14T17:55:28.433Z",
+    "cooked": "<p>have you first post a request for task A1 as it creates the data folder along with  all the other files .</p>",
+    "post_number": 9,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T17:55:28.433Z",
+    "reply_count": 1,
+    "reply_to_post_number": 8,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 24,
+    "readers_count": 23,
+    "score": 9.6,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "Ansh bansal",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "reply_to_user": {
+      "id": 40000,
+      "username": "Sakshi6479",
+      "name": "SAKSHI PATHAK",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 21948,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/9",
+    "user_cakedate": "2023-09-18",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 595117,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-14T18:19:59.123Z",
+    "cooked": "<p>no actually do we have to create another file for that or we have to request post in this one ? can you guide me for that step wise . it would be very helpful.</p>",
+    "post_number": 10,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T18:19:59.123Z",
+    "reply_count": 1,
+    "reply_to_post_number": 9,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 23,
+    "readers_count": 22,
+    "score": 9.4,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 21948,
+      "username": "23f2004752",
+      "name": "Ansh bansal",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004752/{size}/68296_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/10",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 595118,
+    "name": "Ansh bansal",
+    "username": "23f2004752",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004752/{size}/68296_2.png",
+    "created_at": "2025-02-14T18:22:49.379Z",
+    "cooked": "<p>by running task A1 , it automatically creates a data folder along with all the files in it. Without running task A1 you can\u2019t do rest of A tasks</p>",
+    "post_number": 11,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T18:22:49.379Z",
+    "reply_count": 1,
+    "reply_to_post_number": 10,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 23,
+    "readers_count": 22,
+    "score": 9.4,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "Ansh bansal",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "reply_to_user": {
+      "id": 40000,
+      "username": "Sakshi6479",
+      "name": "SAKSHI PATHAK",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 21948,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/11",
+    "user_cakedate": "2023-09-18",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 595122,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-14T18:38:09.127Z",
+    "cooked": "<p>how can i run A1 task can elaborate a little bit. do i have to create data folder manually or  using this code by giving query taskA1 it will generate that folder ?</p>",
+    "post_number": 12,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T18:38:09.127Z",
+    "reply_count": 1,
+    "reply_to_post_number": 11,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 21,
+    "readers_count": 20,
+    "score": 9.0,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 21948,
+      "username": "23f2004752",
+      "name": "Ansh bansal",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004752/{size}/68296_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/12",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 595123,
+    "name": "Ansh bansal",
+    "username": "23f2004752",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004752/{size}/68296_2.png",
+    "created_at": "2025-02-14T18:39:57.491Z",
+    "cooked": "<p>simply give task=\u201ctask\u201d<br>\ntask: copy the task a_1 from project document</p>",
+    "post_number": 13,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T18:39:57.491Z",
+    "reply_count": 1,
+    "reply_to_post_number": 12,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 23,
+    "readers_count": 22,
+    "score": 9.0,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "Ansh bansal",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "reply_to_user": {
+      "id": 40000,
+      "username": "Sakshi6479",
+      "name": "SAKSHI PATHAK",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 21948,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/13",
+    "user_cakedate": "2023-09-18",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 595125,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-14T18:44:30.274Z",
+    "cooked": "<p>it is showing</p>\n<pre><code class=\"lang-auto\">INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)\n{'id': 'chatcmpl-B0uvU556EOCy6HOPHV9ni7YJY403i', 'object': 'chat.completion', 'created': 1739558524, 'model': 'gpt-4o-mini-2024-07-18', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': None, 'tool_calls': [{'id': 'call_JXkfp14QEEo6M2zdgBXKduqi', 'type': 'function', 'function': {'name': 'install_uv_and_run_datagen', 'arguments': '{\"email\":\"24f2006749@ds.study.iitm.ac.in\"}'}}], 'refusal': None}, 'logprobs': None, 'finish_reason': 'tool_calls'}], 'usage': {'prompt_tokens': 732, 'completion_tokens': 30, 'total_tokens': 762, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'service_tier': 'default', 'system_fingerprint': 'fp_00428b782a', 'monthlyCost': 0.09109908, 'cost': 0.002376, 'monthlyRequests': 137}\nCollecting uv\n  Downloading uv-0.6.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)\nDownloading uv-0.6.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.3 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 16.3/16.3 MB 3.2 MB/s eta 0:00:00\nInstalling collected packages: uv\nSuccessfully installed uv-0.6.0\npython: can't open file '/home/sakshi-tds/tds_project1/https://raw.githubusercontent.com/sanand0/tools-in-data-science-public/tds-2025-01/project-1/datagen.py': [Errno 2] No such file or directory\nINFO:     127.0.0.1:34758 - \"POST /run?task=Install%20uv%20(if%20required)%20and%20run%20https://raw.githubusercontent.com/sanand0/tools-in-data-science-public/tds-2025-01/project-1/datagen.py%20with%2024f2006749@ds.study.iitm.ac.in%20as%20the%20only%20argument. HTTP/1.1\" 200 OK\n</code></pre>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/3/8/38616e70dfbf04366baf4c5690da45032982aa4f.png\" data-download-href=\"/uploads/short-url/82Lu1bafOSoTOnWb3DcmC7NgXWD.png?dl=1\" title=\"Screenshot 2025-02-15 001314\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/8/38616e70dfbf04366baf4c5690da45032982aa4f_2_534x500.png\" alt=\"Screenshot 2025-02-15 001314\" data-base62-sha1=\"82Lu1bafOSoTOnWb3DcmC7NgXWD\" width=\"534\" height=\"500\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/8/38616e70dfbf04366baf4c5690da45032982aa4f_2_534x500.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/8/38616e70dfbf04366baf4c5690da45032982aa4f_2_801x750.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/8/38616e70dfbf04366baf4c5690da45032982aa4f_2_1068x1000.png 2x\" data-dominant-color=\"282828\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">Screenshot 2025-02-15 001314</span><span class=\"informations\">1759\u00d71645 228 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+    "post_number": 14,
+    "post_type": 1,
+    "posts_count": 14,
+    "updated_at": "2025-02-14T18:44:30.274Z",
+    "reply_count": 0,
+    "reply_to_post_number": 13,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 25,
+    "readers_count": 24,
+    "score": 4.2,
+    "yours": false,
+    "topic_id": 167172,
+    "topic_slug": "regarding-project1-for-file-not-detecting-after-sending-post-request",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 21948,
+      "username": "23f2004752",
+      "name": "Ansh bansal",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004752/{size}/68296_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-project1-for-file-not-detecting-after-sending-post-request/167172/14",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

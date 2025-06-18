@@ -1,0 +1,103 @@
+[
+  {
+    "id": 587806,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-01-30T09:31:29.813Z",
+    "cooked": "<p>Hi All,</p>\n<p>The agenda items for the live session 30/01/2025 are:</p>\n<ol>\n<li>What is Rest API?</li>\n<li>The FAST API library</li>\n<li>Basic Intro to CORS</li>\n<li>Creating JSON schema</li>\n<li>Function calling</li>\n</ol>\n<p>GMeet: <img src=\"https://ssl.gstatic.com/calendar/images/conferenceproviders/logo_meet_2020q4_192px.svg\" alt=\"\" role=\"presentation\" width=\"192\" height=\"192\"></p>\n<p>Join with Google Meet</p>\n<p><a href=\"http://meet.google.com/brz-ksac-evo\" class=\"onebox\" target=\"_blank\" rel=\"noopener nofollow ugc\">meet.google.com/brz-ksac-evo</a></p>\n<p>Kind regards,<br>\nTDS Team</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 1,
+    "updated_at": "2025-01-30T10:41:02.315Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 19,
+    "readers_count": 18,
+    "score": 2.8,
+    "yours": false,
+    "topic_id": 165830,
+    "topic_slug": "live-session-agenda-30-01-2025",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "http://meet.google.com/brz-ksac-evo",
+        "internal": false,
+        "reflection": false,
+        "clicks": 1
+      }
+    ],
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/live-session-agenda-30-01-2025/165830/1",
+    "user_cakedate": "2023-01-25",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  }
+]

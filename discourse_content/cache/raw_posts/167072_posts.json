@@ -1,0 +1,185 @@
+[
+  {
+    "id": 594729,
+    "name": "Vikram Suriyanarayanan",
+    "username": "vikramjncasr",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/vikramjncasr/{size}/1844_2.png",
+    "created_at": "2025-02-14T03:57:16.864Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a> <a class=\"mention\" href=\"/u/carlton\">@carlton</a> sir please help</p>\n<p>When I am downloading the data folder after processing datagen.py , it is trying to download in root folder and it is facing permission error . how can we overcome this ?<br>\nneeds sudo permission all the time\u2026<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/5/f51040627e050b955bb243c23f1f660da36b73ae.png\" data-download-href=\"/uploads/short-url/yXVNx8O1oDleUm0YAE5Z6ZAElJk.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/5/f51040627e050b955bb243c23f1f660da36b73ae_2_690x70.png\" alt=\"image\" data-base62-sha1=\"yXVNx8O1oDleUm0YAE5Z6ZAElJk\" width=\"690\" height=\"70\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/5/f51040627e050b955bb243c23f1f660da36b73ae_2_690x70.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/5/f51040627e050b955bb243c23f1f660da36b73ae_2_1035x105.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/5/f51040627e050b955bb243c23f1f660da36b73ae_2_1380x140.png 2x\" data-dominant-color=\"1E2227\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">2100\u00d7216 100 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-02-14T03:57:16.864Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 35,
+    "readers_count": 34,
+    "score": 6.2,
+    "yours": false,
+    "topic_id": 167072,
+    "topic_slug": "sudo-permission-needed-to-create-data-folder-in-root",
+    "display_username": "Vikram Suriyanarayanan",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 3935,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/sudo-permission-needed-to-create-data-folder-in-root/167072/1",
+    "user_cakedate": "2021-05-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 594766,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-02-14T04:53:36.939Z",
+    "cooked": "<p>Hi Vikram,</p>\n<p>This is because (if you watched the session, or examined the code, you would have realised that) datagen.py was designed to run inside your docker container. And datagen.py (or a similar named file which we will not tell you ahead of time and will be provided as the query parameter in task A1) will normally be called by evaluate.py<br>\nInside the docker container, permission for the data folder is set by the Dockerfile<br>\nwhich then allows your application to access the root folder inside your docker image and create the /data folder.</p>\n<p>So the workflow is like this (for your internal testing only\u2026 please follow the Project page for deliverables and evaluation to submit project successfully):</p>\n<ol>\n<li>You create your application server that serves 2 endpoints on localhost:8000</li>\n<li>You create a docker image that runs this application server.</li>\n<li>You run the docker image using podman as described in the project page.</li>\n<li>For mimicking the testing conditions. You need two files:<br>\nevaluate.py and datagen.py to be in the same folder where you are running these two scripts.</li>\n<li>Run evalute.py using uv.</li>\n</ol>\n<p>If your docker image is correctly configured and your application is correctly configured, then all the tasks run by evaluate.py will correctly tell you if the application is producing the right result for each task.</p>\n<p>Hope that gives clarity.</p>\n<p>Kind regards</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-02-14T04:54:29.626Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 33,
+    "readers_count": 32,
+    "score": 6.0,
+    "yours": false,
+    "topic_id": 167072,
+    "topic_slug": "sudo-permission-needed-to-create-data-folder-in-root",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/sudo-permission-needed-to-create-data-folder-in-root/167072/2",
+    "user_cakedate": "2023-01-25",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

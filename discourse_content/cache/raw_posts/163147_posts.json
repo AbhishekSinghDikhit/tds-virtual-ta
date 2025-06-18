@@ -1,0 +1,218 @@
+[
+  {
+    "id": 579338,
+    "name": "Divyasree",
+    "username": "Divya1",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/divya1/{size}/67525_2.png",
+    "created_at": "2025-01-13T15:40:50.279Z",
+    "cooked": "<p>Can anyone forward the specified links of the books(iitm certified(logo)) or pdf\u2019s for preparation?</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-01-13T15:40:50.279Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 91,
+    "readers_count": 90,
+    "score": 22.0,
+    "yours": false,
+    "topic_id": 163147,
+    "topic_slug": "tds-iitm-certified-books",
+    "display_username": "Divyasree",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 33695,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/tds-iitm-certified-books/163147/1",
+    "user_cakedate": "2024-06-09",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 579586,
+    "name": "Anand S",
+    "username": "s.anand",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+    "created_at": "2025-01-14T09:48:43.870Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/divya1\">@Divya1</a> there are no IITM certified books nor PDFs for <a class=\"hashtag-cooked\" href=\"/c/courses/tds-kb/34\" data-type=\"category\" data-slug=\"tds-kb\" data-id=\"34\" data-ref=\"courses:tds-kb\"><span class=\"hashtag-icon-placeholder\"><svg class=\"fa d-icon d-icon-square-full svg-icon svg-node\"><use href=\"#square-full\"></use></svg></span><span>Tools in Data Science</span></a>. The site <a href=\"https://tds.s-anand.net/\">https://tds.s-anand.net/</a> is the reference.</p>\n<p>We update the content regularly. You might want to <a href=\"https://github.com/sanand0/tools-in-data-science-public/commits/tds-2025-01/\">track the changes</a> for recent updates.</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-01-14T09:48:43.870Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 77,
+    "readers_count": 76,
+    "score": 89.2,
+    "yours": false,
+    "topic_id": 163147,
+    "topic_slug": "tds-iitm-certified-books",
+    "display_username": "Anand S",
+    "primary_group_name": "faculty",
+    "flair_name": "faculty",
+    "flair_url": "chalkboard-user",
+    "flair_bg_color": "f2c26e",
+    "flair_color": "000",
+    "flair_group_id": 54,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://tds.s-anand.net/",
+        "internal": false,
+        "reflection": false,
+        "title": "Tools in Data Science",
+        "clicks": 18
+      },
+      {
+        "url": "https://github.com/sanand0/tools-in-data-science-public/commits/tds-2025-01/",
+        "internal": false,
+        "reflection": false,
+        "title": "Commits \u00b7 sanand0/tools-in-data-science-public \u00b7 GitHub",
+        "clicks": 13
+      },
+      {
+        "url": "/c/courses/tds-kb/34",
+        "internal": true,
+        "reflection": false,
+        "clicks": 0
+      }
+    ],
+    "read": false,
+    "user_title": "Course_faculty",
+    "title_is_group": true,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 5,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 9419,
+    "hidden": false,
+    "trust_level": 4,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/tds-iitm-certified-books/163147/2",
+    "user_cakedate": "2022-01-03",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 4
+      },
+      {
+        "id": "+1",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 5,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  }
+]

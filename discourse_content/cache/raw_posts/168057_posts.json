@@ -1,0 +1,192 @@
+[
+  {
+    "id": 598203,
+    "name": "Swapnila Chakrabarty",
+    "username": "swapnila04",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/swapnila04/{size}/13055_2.png",
+    "created_at": "2025-02-22T04:50:25.982Z",
+    "cooked": "<p><strong>QUESTION 9</strong></p>\n<p>I was supposed to transcribe the audio of the provided video for a certain time period. After several attempts my submission still generated differences from the supposed answers. I have tried all forms of re-punctuations but the error wont budge. I even compared the generated transcript with the actual audio several times. I BELIEVE MY ANSWER IS CORRECT. If not I wish to know what the correct answer is. Because compared to the video I have provided the exact and well punctuated transcription of the audio between 397.2 and 505.5 seconds.</p>\n<p>Here was my transcription - \" Determined to confront the mystery, Miranda followed the elusive figure. In the dim corridor, fleeting glimpses of determination and hidden sorrow emerged, challenging her assumptions of friends and foes alike. The pursuit led her to a narrow, winding passage beneath the chapel. In the oppressive darkness, the air grew cold and heavy, and every echo of her footsteps seemed to whisper warnings of secrets best left undisturbed.</p>\n<p>In a subterranean chamber, the shadow finally halted. The figure\u2019s voice emerged from the gloom, \u201cYou are close to the truth, but be warned some secrets, once uncovered, can never be buried again.\u201d</p>\n<p>The mysterious stranger introduced himself as Victor, a former confidant of Edmund. His words painted a tale of coercion and betrayal\u2014a network of hidden alliances that had forced Edmond into an impossible choice.</p>\n<p>Victor detailed clandestine meetings, cryptic codes, and a secret society that manipulated fate from behind the scenes. Miranda listened, each revelation tightening the knots of suspicion around her mind.</p>\n<p>From within his warm coat, Victor produced a faded journal brimming with names, dates, and enigmatic symbols. Its contents mirrored Edmund\u2019s diary, strengthening the case for a conspiracy rooted in treachery. The journal hinted at a hidden hall beneath the manor, where the secret society stored evidence of their manipulations.</p>\n<p>Miranda\u2019s pulse quickened at the thought of unmasking those responsible for decades of deceit. Returning to the manor\u2019s main hall, Miranda retraced her steps with renewed resolve. Every shadow in the corridor now seemed charged with meaning, each creak of wood a prelude to further revelations. In the manor\u2019s basement, beneath a concealed panel, Miranda discovered another revelation \"</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-02-22T04:50:25.982Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 30,
+    "readers_count": 29,
+    "score": 4.8,
+    "yours": false,
+    "topic_id": 168057,
+    "topic_slug": "question-9-of-tds-week-5-ga",
+    "display_username": "Swapnila Chakrabarty",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 12542,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/question-9-of-tds-week-5-ga/168057/1",
+    "user_cakedate": "2022-05-01",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 598346,
+    "name": "B R GIRI SUBRAHMANYA",
+    "username": "23f2000573",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2000573/{size}/68306_2.png",
+    "created_at": "2025-02-22T08:30:32.330Z",
+    "cooked": "<p>i downloaded mp3, trimmed the video using ffmpeg  and used this<br>\n<a href=\"https://www.zamzar.com/tools/mp3-to-text/\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Convert your MP3 to Text for Free Online</a>, it worked</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-02-22T08:30:32.330Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 22,
+    "readers_count": 21,
+    "score": 3.4,
+    "yours": false,
+    "topic_id": 168057,
+    "topic_slug": "question-9-of-tds-week-5-ga",
+    "display_username": "B R GIRI SUBRAHMANYA",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://www.zamzar.com/tools/mp3-to-text/",
+        "internal": false,
+        "reflection": false,
+        "title": "Convert your MP3 to Text for Free Online",
+        "clicks": 1
+      }
+    ],
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 17736,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/question-9-of-tds-week-5-ga/168057/2",
+    "user_cakedate": "2023-06-03",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

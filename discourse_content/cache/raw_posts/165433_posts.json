@@ -1,0 +1,682 @@
+[
+  {
+    "id": 586611,
+    "name": "Anushka Kumar",
+    "username": "22f2000559",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f2000559/{size}/13152_2.png",
+    "created_at": "2025-01-27T07:08:49.269Z",
+    "cooked": "<p>Respected Sir <a class=\"mention\" href=\"/u/carlton\">@carlton</a>,</p>\n<p>I realized there are still many topics to learn in order to complete the TDS Course ( With an A or S Grade) as I have missed some questions (Couldn\u2019t do even after studying the videos ) .</p>\n<p>Therefore wanted to learn and regardless of the scoring I still wish to complete GA1 but, I see that I can\u2019t access the questions  anymore \u2026</p>\n<p>Is there any way to give the answers in the portal and check. I just want to learn and test my knowledge</p>\n<p>Thank You,<br>\n22f2000559.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 7,
+    "updated_at": "2025-01-27T07:08:49.269Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 53,
+    "readers_count": 52,
+    "score": 29.8,
+    "yours": false,
+    "topic_id": 165433,
+    "topic_slug": "questions-closed-ga",
+    "display_username": "Anushka Kumar",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 13976,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/questions-closed-ga/165433/1",
+    "user_cakedate": "2022-08-01",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 586634,
+    "name": "Yogesh",
+    "username": "Yogesh1",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/yogesh1/{size}/32697_2.png",
+    "created_at": "2025-01-27T07:46:21.658Z",
+    "cooked": "<p>Yeah. There must be a mechanism by which the scores get frozen but students are able to practise even after the deadline.</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 7,
+    "updated_at": "2025-01-27T07:46:21.658Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 51,
+    "readers_count": 50,
+    "score": 54.6,
+    "yours": false,
+    "topic_id": 165433,
+    "topic_slug": "questions-closed-ga",
+    "display_username": "Yogesh",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 3,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 7795,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/questions-closed-ga/165433/2",
+    "user_cakedate": "2021-10-14",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 3
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 3,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 587241,
+    "name": "Parth Patel",
+    "username": "parthpatel",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/parthpatel/{size}/253_2.png",
+    "created_at": "2025-01-28T14:11:36.042Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/carlton\">@carlton</a> <a class=\"mention\" href=\"/u/s.anand\">@s.anand</a> Please provide a solution</p>\n<p>Edit: <a class=\"mention\" href=\"/u/yogesh1\">@Yogesh1</a> <a class=\"mention\" href=\"/u/22f2000559\">@22f2000559</a> There is a way to access GA1 - you can login with any other email ID, as the site is meant for general public too. You won\u2019t be able to submit the assignments, so you might have to self-evaluate.</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 7,
+    "updated_at": "2025-01-28T14:47:13.946Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 41,
+    "readers_count": 40,
+    "score": 27.6,
+    "yours": false,
+    "topic_id": 165433,
+    "topic_slug": "questions-closed-ga",
+    "display_username": "Parth Patel",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 3,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 3672,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/questions-closed-ga/165433/3",
+    "user_cakedate": "2021-05-05",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 587348,
+    "name": "Anand S",
+    "username": "s.anand",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+    "created_at": "2025-01-29T00:47:24.122Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/22f2000559\">@22f2000559</a> \u2013 Good point. I\u2019ve enabled access now.</p>\n<p><a class=\"mention\" href=\"/u/parthpatel\">@parthpatel</a> \u2013 nice workaround!</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 7,
+    "updated_at": "2025-01-29T00:47:24.122Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 36,
+    "readers_count": 35,
+    "score": 61.8,
+    "yours": false,
+    "topic_id": 165433,
+    "topic_slug": "questions-closed-ga",
+    "display_username": "Anand S",
+    "primary_group_name": "faculty",
+    "flair_name": "faculty",
+    "flair_url": "chalkboard-user",
+    "flair_bg_color": "f2c26e",
+    "flair_color": "000",
+    "flair_group_id": 54,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Course_faculty",
+    "title_is_group": true,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 3,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 9419,
+    "hidden": false,
+    "trust_level": 4,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/questions-closed-ga/165433/4",
+    "user_cakedate": "2022-01-03",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 3
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 3,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 590377,
+    "name": "Parth Patel",
+    "username": "parthpatel",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/parthpatel/{size}/253_2.png",
+    "created_at": "2025-02-03T17:34:54.550Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/carlton\">@carlton</a> <a class=\"mention\" href=\"/u/s.anand\">@s.anand</a></p>\n<p>Sorry to bother you again, but there is another issue about inactive download buttons for required files for the problems. Also it will be nice if the evaluations are turned on too.</p>",
+    "post_number": 5,
+    "post_type": 1,
+    "posts_count": 7,
+    "updated_at": "2025-02-04T03:54:18.408Z",
+    "reply_count": 1,
+    "reply_to_post_number": 4,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 27,
+    "readers_count": 26,
+    "score": 15.0,
+    "yours": false,
+    "topic_id": 165433,
+    "topic_slug": "questions-closed-ga",
+    "display_username": "Parth Patel",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "reply_to_user": {
+      "id": 9419,
+      "username": "s.anand",
+      "name": "Anand S",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 3672,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/questions-closed-ga/165433/5",
+    "user_cakedate": "2021-05-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 590441,
+    "name": "Anand S",
+    "username": "s.anand",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+    "created_at": "2025-02-04T04:24:53.476Z",
+    "cooked": "<p>Good point. Fixed now.</p>",
+    "post_number": 6,
+    "post_type": 1,
+    "posts_count": 7,
+    "updated_at": "2025-02-04T04:24:53.476Z",
+    "reply_count": 0,
+    "reply_to_post_number": 5,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 26,
+    "readers_count": 25,
+    "score": 34.4,
+    "yours": false,
+    "topic_id": 165433,
+    "topic_slug": "questions-closed-ga",
+    "display_username": "Anand S",
+    "primary_group_name": "faculty",
+    "flair_name": "faculty",
+    "flair_url": "chalkboard-user",
+    "flair_bg_color": "f2c26e",
+    "flair_color": "000",
+    "flair_group_id": 54,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Course_faculty",
+    "title_is_group": true,
+    "reply_to_user": {
+      "id": 3672,
+      "username": "parthpatel",
+      "name": "Parth Patel",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/parthpatel/{size}/253_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 9419,
+    "hidden": false,
+    "trust_level": 4,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/questions-closed-ga/165433/6",
+    "user_cakedate": "2022-01-03",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 591519,
+    "name": "Anushka Kumar",
+    "username": "22f2000559",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f2000559/{size}/13152_2.png",
+    "created_at": "2025-02-07T07:36:00.899Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/s.anand\">@s.anand</a> Sir,<br>\nCan you please enable the evaluations for all GAs who have crossed the deadlines?</p>",
+    "post_number": 7,
+    "post_type": 1,
+    "posts_count": 7,
+    "updated_at": "2025-02-07T07:36:00.899Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 16,
+    "readers_count": 15,
+    "score": 2.2,
+    "yours": false,
+    "topic_id": 165433,
+    "topic_slug": "questions-closed-ga",
+    "display_username": "Anushka Kumar",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 13976,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/questions-closed-ga/165433/7",
+    "user_cakedate": "2022-08-01",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  }
+]

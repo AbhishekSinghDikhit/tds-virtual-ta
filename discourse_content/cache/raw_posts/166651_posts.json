@@ -1,0 +1,92 @@
+[
+  {
+    "id": 592822,
+    "name": "SP",
+    "username": "22f3003083",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/8797f3/{size}.png",
+    "created_at": "2025-02-09T15:23:28.169Z",
+    "cooked": "<p>By going into inspect, copying the json, pasting into the portal and correcting the errors accordingly with chat gpt. Somehow got it done but very tiresome for just 1 mark.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 1,
+    "updated_at": "2025-02-27T14:25:32.855Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 35,
+    "readers_count": 34,
+    "score": 6.0,
+    "yours": false,
+    "topic_id": 166651,
+    "topic_slug": "tds-w4-q3",
+    "display_username": "SP",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 15956,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/tds-w4-q3/166651/1",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  }
+]

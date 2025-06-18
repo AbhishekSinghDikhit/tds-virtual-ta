@@ -1,0 +1,183 @@
+[
+  {
+    "id": 592777,
+    "name": "Dhruv Gupta",
+    "username": "23f1001806",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1001806/{size}/68031_2.png",
+    "created_at": "2025-02-09T14:51:52.566Z",
+    "cooked": "<p>I have doubt in question 10 to convert pdf to markdown<br>\nI am not getting correct markdown<br>\n<a class=\"mention\" href=\"/u/pds_staff\">@pds_staff</a></p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-02-09T14:51:52.566Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 19,
+    "readers_count": 18,
+    "score": 2.8,
+    "yours": false,
+    "topic_id": 166647,
+    "topic_slug": "i-have-doubt-in-q10",
+    "display_username": "Dhruv Gupta",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18255,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/i-have-doubt-in-q10/166647/1",
+    "user_cakedate": "2023-06-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 593235,
+    "name": "Ashutosh Banerjee ",
+    "username": "22f3000092",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000092/{size}/67154_2.png",
+    "created_at": "2025-02-09T18:15:12.582Z",
+    "cooked": "<p>Try using the pymupdf4llm Library<br>\npip install pymupdf4llm</p>\n<p>import pymupdf4llm<br>\nmd_text = pymupdf4llm.to_markdown(\u201cinput.pdf\u201d)</p>\n<p>import pathlib<br>\npathlib.Path(\u201coutput.md\u201d).write_bytes(md_text.encode())</p>\n<p>import pymupdf4llm<br>\nllama_reader = pymupdf4llm.LlamaMarkdownReader()<br>\nllama_docs = llama_reader.load_data(\u201cinput.pdf\u201d)</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-02-09T18:15:12.582Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 14,
+    "readers_count": 13,
+    "score": 1.8,
+    "yours": false,
+    "topic_id": 166647,
+    "topic_slug": "i-have-doubt-in-q10",
+    "display_username": "Ashutosh Banerjee ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 34984,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/i-have-doubt-in-q10/166647/2",
+    "user_cakedate": "2024-06-26",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

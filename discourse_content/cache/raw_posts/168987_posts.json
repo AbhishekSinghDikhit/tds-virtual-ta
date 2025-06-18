@@ -1,0 +1,187 @@
+[
+  {
+    "id": 602435,
+    "name": "Saanvi Gandhi",
+    "username": "23f2000093",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2000093/{size}/79890_2.png",
+    "created_at": "2025-03-02T13:51:41.678Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/carlton\">@carlton</a> <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a><br>\nI wanted to let you know that I was unable to attend the ROE session today. I\u2019ve been running a high fever since yesterday, and while I managed to complete my JAVA OPPE this morning, I started feeling much worse afterward. I felt it was necessary to get checked out by a doctor and unfortunately had to miss ROE as a result.</p>\n<p>I was wondering if there might be any possibility of taking the ROE at a later time? Please let me know if there\u2019s anything I can do or if any arrangements can be made.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-03-02T13:51:41.678Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 2,
+    "reads": 48,
+    "readers_count": 47,
+    "score": 18.8,
+    "yours": false,
+    "topic_id": 168987,
+    "topic_slug": "unable-to-attend-the-roe",
+    "display_username": "Saanvi Gandhi",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 20455,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/unable-to-attend-the-roe/168987/1",
+    "user_cakedate": "2023-06-13",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 603015,
+    "name": "Jivraj Singh Shekhawat",
+    "username": "Jivraj",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+    "created_at": "2025-03-03T11:27:52.737Z",
+    "cooked": "",
+    "post_number": 2,
+    "post_type": 3,
+    "posts_count": 2,
+    "updated_at": "2025-03-03T11:27:52.737Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 19,
+    "readers_count": 18,
+    "score": 3.4,
+    "yours": false,
+    "topic_id": 168987,
+    "topic_slug": "unable-to-attend-the-roe",
+    "display_username": "Jivraj Singh Shekhawat",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Course TA",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 15651,
+    "hidden": false,
+    "trust_level": 2,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "action_code": "assigned",
+    "action_code_who": "carlton",
+    "post_url": "/t/unable-to-attend-the-roe/168987/2",
+    "user_cakedate": "2023-01-25",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

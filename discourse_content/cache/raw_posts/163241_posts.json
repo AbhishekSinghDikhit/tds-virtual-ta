@@ -1,0 +1,206 @@
+[
+  {
+    "id": 579630,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-01-14T11:33:23.361Z",
+    "cooked": "<p>I recently explored the details of the extra credit project and found the problem statement and its clever framing both fascinating and challenging. While I\u2019m eager to take it on, I feel my current skill set might fall short of the project\u2019s demands. I\u2019m committed to pushing my boundaries and would greatly appreciate your guidance on topics or resources that could help me prepare more effectively during my free time.</p>\n<p>I want to ensure I can contribute something meaningful and engaging, even if the outcome isn\u2019t perfect. If there are any recommended readings, practice problems, or areas of focus that you believe would provide a solid foundation for approaching this project, I would be very grateful for your suggestions.</p>\n<p>Thank you for considering my request. I\u2019m genuinely excited by the challenge and hope to make the most of this opportunity to learn and grow under your guidance.<br>\n<a class=\"mention\" href=\"/u/s.anand\">@s.anand</a></p>\n<p>ChatGPT can make mistakes. Check important info.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-01-14T11:33:23.361Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 2,
+    "reads": 73,
+    "readers_count": 72,
+    "score": 23.4,
+    "yours": false,
+    "topic_id": 163241,
+    "topic_slug": "regarding-extra-material-information-resources-for-the-upcoming-project",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-extra-material-information-resources-for-the-upcoming-project/163241/1",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 579674,
+    "name": "Anand S",
+    "username": "s.anand",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+    "created_at": "2025-01-14T13:13:00.873Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/23f1002382\">@23f1002382</a> - The topics &amp; resources that might help prepare for the projects at <a href=\"https://tds.s-anand.net/\">https://tds.s-anand.net/</a>. It\u2019s an evolving site. We keep adding whatever\u2019s required that\u2019s (a) new or (b) unknown to some students.</p>\n<p>Please go through the content. Where you find gaps, please let us know. If it\u2019s a need across multiple students, we\u2019ll find / create the content around it.</p>\n<p>Looking forward to your project!</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-01-14T13:13:00.873Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 63,
+    "readers_count": 62,
+    "score": 62.0,
+    "yours": false,
+    "topic_id": 163241,
+    "topic_slug": "regarding-extra-material-information-resources-for-the-upcoming-project",
+    "display_username": "Anand S",
+    "primary_group_name": "faculty",
+    "flair_name": "faculty",
+    "flair_url": "chalkboard-user",
+    "flair_bg_color": "f2c26e",
+    "flair_color": "000",
+    "flair_group_id": 54,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://tds.s-anand.net/",
+        "internal": false,
+        "reflection": false,
+        "title": "Tools in Data Science",
+        "clicks": 13
+      }
+    ],
+    "read": true,
+    "user_title": "Course_faculty",
+    "title_is_group": true,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 3,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 9419,
+    "hidden": false,
+    "trust_level": 4,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/regarding-extra-material-information-resources-for-the-upcoming-project/163241/2",
+    "user_cakedate": "2022-01-03",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      },
+      {
+        "id": "+1",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 3,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  }
+]

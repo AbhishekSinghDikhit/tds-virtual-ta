@@ -1,0 +1,283 @@
+[
+  {
+    "id": 603798,
+    "name": "Pranjal agrawal",
+    "username": "Pranjal085",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/pranjal085/{size}/13325_2.png",
+    "created_at": "2025-03-06T06:07:52.489Z",
+    "cooked": "<p>My TDS GA score is showing 0,whereas when i open the assignment it is showing last saved score 7.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-03-06T14:36:44.475Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 38,
+    "readers_count": 37,
+    "score": 6.2,
+    "yours": false,
+    "topic_id": 169247,
+    "topic_slug": "disparity-in-tds-ga-5-scores",
+    "display_username": "Pranjal agrawal",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 14654,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/disparity-in-tds-ga-5-scores/169247/1",
+    "user_cakedate": "2022-09-07",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 604047,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-03-07T03:03:50.893Z",
+    "cooked": "<p>Can you provide your roll no. We can then check your GA5</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-03-07T03:03:50.893Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 31,
+    "readers_count": 30,
+    "score": 9.8,
+    "yours": false,
+    "topic_id": 169247,
+    "topic_slug": "disparity-in-tds-ga-5-scores",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/disparity-in-tds-ga-5-scores/169247/3",
+    "user_cakedate": "2023-01-25",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 604068,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-03-07T05:05:52.056Z",
+    "cooked": "<p>Hi <a class=\"mention\" href=\"/u/pranjal085\">@Pranjal085</a></p>\n<p>I have checked your GA5 submission and you have submitted it past the deadline on the 22nd.</p>\n<p>Kind regards</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-03-07T05:05:52.056Z",
+    "reply_count": 0,
+    "reply_to_post_number": 3,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 28,
+    "readers_count": 27,
+    "score": 4.6,
+    "yours": false,
+    "topic_id": 169247,
+    "topic_slug": "disparity-in-tds-ga-5-scores",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "reply_to_user": {
+      "id": 16094,
+      "username": "carlton",
+      "name": "Carlton D'Silva",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/disparity-in-tds-ga-5-scores/169247/4",
+    "user_cakedate": "2023-01-25",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

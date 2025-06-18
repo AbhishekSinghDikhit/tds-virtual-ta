@@ -1,0 +1,275 @@
+[
+  {
+    "id": 601538,
+    "name": "Rishika Jain",
+    "username": "23f2003535",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2003535/{size}/68228_2.png",
+    "created_at": "2025-03-01T07:37:08.926Z",
+    "cooked": "<p>Hello sir, I did not recieve the mail for roe exam Pls look into it.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-03-01T10:28:42.481Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 59,
+    "readers_count": 58,
+    "score": 10.4,
+    "yours": false,
+    "topic_id": 168825,
+    "topic_slug": "not-recieved-the-roe-link-mail",
+    "display_username": "Rishika Jain",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 25010,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/not-recieved-the-roe-link-mail/168825/1",
+    "user_cakedate": "2024-01-18",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 601604,
+    "name": "Jivraj Singh Shekhawat",
+    "username": "Jivraj",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+    "created_at": "2025-03-01T10:28:22.396Z",
+    "cooked": "<p>Hi <a class=\"mention\" href=\"/u/23f2003535\">@23f2003535</a></p>\n<p>Mail was sent 1hour ago, you would have received now.</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-03-01T10:28:22.396Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 51,
+    "readers_count": 50,
+    "score": 8.8,
+    "yours": false,
+    "topic_id": 168825,
+    "topic_slug": "not-recieved-the-roe-link-mail",
+    "display_username": "Jivraj Singh Shekhawat",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Course TA",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 15651,
+    "hidden": false,
+    "trust_level": 2,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/not-recieved-the-roe-link-mail/168825/2",
+    "user_cakedate": "2023-01-25",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 602051,
+    "name": "Ashmeet Kaur",
+    "username": "21f3001303",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3001303/{size}/66772_2.png",
+    "created_at": "2025-03-02T06:03:08.910Z",
+    "cooked": "<p>sir we have to join the google meet for roe also?? Or its an open book exam?</p>",
+    "post_number": 5,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-03-02T06:03:08.910Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 30,
+    "readers_count": 29,
+    "score": 4.8,
+    "yours": false,
+    "topic_id": 168825,
+    "topic_slug": "not-recieved-the-roe-link-mail",
+    "display_username": "Ashmeet Kaur",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 8822,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/not-recieved-the-roe-link-mail/168825/5",
+    "user_cakedate": "2021-12-30",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

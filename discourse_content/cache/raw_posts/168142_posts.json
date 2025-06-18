@@ -1,0 +1,795 @@
+[
+  {
+    "id": 598470,
+    "name": "B R GIRI SUBRAHMANYA",
+    "username": "23f2000573",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2000573/{size}/68306_2.png",
+    "created_at": "2025-02-22T12:34:59.729Z",
+    "cooked": "<p>Hi TDS team, with ROE being ahead, i assume an official thread will be created soon. Here are few doubts from my side. I request the official post to cover these.</p>\n<ol>\n<li>Syllabus</li>\n<li>kindly hint us on the type of questions, kind of tools to practice</li>\n<li>I did my ROE the last term, the time was not enough for me. I would like to know if it is actually possible to solve all the questions within the time</li>\n<li>Any mock or resource to practice from?</li>\n<li>additional tips, if any</li>\n</ol>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-22T12:34:59.729Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 4,
+    "reads": 103,
+    "readers_count": 102,
+    "score": 39.6,
+    "yours": false,
+    "topic_id": 168142,
+    "topic_slug": "roe-instructions-request",
+    "display_username": "B R GIRI SUBRAHMANYA",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 17736,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-instructions-request/168142/1",
+    "user_cakedate": "2023-06-03",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 598489,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-02-22T13:09:52.956Z",
+    "cooked": "<ol>\n<li>Modules 1 - 5</li>\n<li>Questions will be similar to GAs and the content in the modules.</li>\n<li>ROE is quite hard. Only a small number will be able to do it in the given time frame.</li>\n<li>We will have some past ROEs as practise</li>\n<li>\u2026 watch sessions</li>\n</ol>\n<p>Kind regards</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-22T13:09:52.956Z",
+    "reply_count": 2,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 97,
+    "readers_count": 96,
+    "score": 78.6,
+    "yours": false,
+    "topic_id": 168142,
+    "topic_slug": "roe-instructions-request",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 3,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-instructions-request/168142/2",
+    "user_cakedate": "2023-01-25",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 3
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 3,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 598535,
+    "name": "Tanush Tambe",
+    "username": "22f3002248",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3002248/{size}/111205_2.png",
+    "created_at": "2025-02-22T14:58:22.135Z",
+    "cooked": "<p>Thanks for the answer <a class=\"mention\" href=\"/u/carlton\">@carlton</a><br>\nIs it safe to assume that ROE is nothing but a \u201cGA with extremely short deadline\u201d since we don\u2019t have proctors ? Or is the ROE more complex structured ?<br>\nP.S. I am not saying the questions will be hard or easy, just asking about structure.</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-23T14:09:18.349Z",
+    "reply_count": 1,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 90,
+    "readers_count": 89,
+    "score": 37.4,
+    "yours": false,
+    "topic_id": 168142,
+    "topic_slug": "roe-instructions-request",
+    "display_username": "Tanush Tambe",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 16094,
+      "username": "carlton",
+      "name": "Carlton D'Silva",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 17433,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-instructions-request/168142/3",
+    "user_cakedate": "2023-06-03",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 598692,
+    "name": "Kumar Rishabh ",
+    "username": "Rishabh2",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/rishabh2/{size}/66901_2.png",
+    "created_at": "2025-02-23T05:33:31.105Z",
+    "cooked": "<p>Sir questions will be of Numeeical type or MCQs type as in earlier batches it was MCQs??</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-23T05:33:31.105Z",
+    "reply_count": 1,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 81,
+    "readers_count": 80,
+    "score": 20.8,
+    "yours": false,
+    "topic_id": 168142,
+    "topic_slug": "roe-instructions-request",
+    "display_username": "Kumar Rishabh ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 16094,
+      "username": "carlton",
+      "name": "Carlton D'Silva",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 20017,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-instructions-request/168142/4",
+    "user_cakedate": "2023-06-12",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 598892,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-02-24T07:40:15.196Z",
+    "cooked": "<p>ROEs are always unique. They can be of any kind. We do not fix one method. Therefore its not possible to say what kind of questions will be there whether MCQ, MSQ or numerical or text etc.</p>\n<p>Kind regards</p>",
+    "post_number": 5,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-24T07:40:15.196Z",
+    "reply_count": 0,
+    "reply_to_post_number": 4,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 62,
+    "readers_count": 61,
+    "score": 12.0,
+    "yours": false,
+    "topic_id": 168142,
+    "topic_slug": "roe-instructions-request",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "reply_to_user": {
+      "id": 20017,
+      "username": "Rishabh2",
+      "name": "Kumar Rishabh ",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/rishabh2/{size}/66901_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-instructions-request/168142/5",
+    "user_cakedate": "2023-01-25",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 598895,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-02-24T07:52:35.373Z",
+    "cooked": "<p>The ROEs are not GAs with short deadlines. A GA question usually tests one concept in isolation. ROEs typically require you to combine multiple concepts and use multiple tools in order to answer the question. (in a very short time).</p>\n<p>If your goal is totally rely on the LLM to solve it for you\u2026 past experience shows us that ROEs complexity is usually difficult for an LLM to overcome without significant assistance from the \u201chooomann\u201d <img src=\"https://emoji.discourse-cdn.com/google/nerd_face.png?v=12\" title=\":nerd_face:\" class=\"emoji\" alt=\":nerd_face:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>So practise with the concepts are going to be key without having to look up everything because looking up everything takes too much time. Collaboration with others is going be helpful. ROE is not proctored and is open internet. There is a reason for that. Its very hard.</p>\n<p>There will be a dataset or multiple datasets. Sometimes you may have to combine datasets to answer questions. You will have to extract data from the dataset. You will have to transform/clean the data and you will have to gain some information from the data, is what typical ROEs test.</p>\n<p>Kind regards</p>",
+    "post_number": 6,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-24T07:52:35.373Z",
+    "reply_count": 1,
+    "reply_to_post_number": 3,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 62,
+    "readers_count": 61,
+    "score": 62.0,
+    "yours": false,
+    "topic_id": 168142,
+    "topic_slug": "roe-instructions-request",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "reply_to_user": {
+      "id": 17433,
+      "username": "22f3002248",
+      "name": "Tanush Tambe",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3002248/{size}/111205_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 3,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-instructions-request/168142/6",
+    "user_cakedate": "2023-01-25",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 3
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 3,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 598902,
+    "name": "Yogesh",
+    "username": "Yogesh1",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/yogesh1/{size}/32697_2.png",
+    "created_at": "2025-02-24T08:39:53.315Z",
+    "cooked": "<p>Is there scope for collaboration in a 45 minute test?</p>",
+    "post_number": 7,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-24T08:39:53.315Z",
+    "reply_count": 1,
+    "reply_to_post_number": 6,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 60,
+    "readers_count": 59,
+    "score": 21.2,
+    "yours": false,
+    "topic_id": 168142,
+    "topic_slug": "roe-instructions-request",
+    "display_username": "Yogesh",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 16094,
+      "username": "carlton",
+      "name": "Carlton D'Silva",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 7795,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-instructions-request/168142/7",
+    "user_cakedate": "2021-10-14",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 598910,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-02-24T08:59:27.794Z",
+    "cooked": "<p>Depends on the collaborators and how they split up the tasks. If its a team that knows their roles and a team leader that can designate tasks correctly then quite possibly. In practise though that rarely happens.</p>\n<p>Also 45 mins is not a given, its a typical time we aim for. It can be shorter or longer depending on the nature of the questions in the ROE. Each one is unique. There have been ROEs as long as 2 hours and on the minimum side 30 mins.</p>",
+    "post_number": 8,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-24T08:59:27.794Z",
+    "reply_count": 0,
+    "reply_to_post_number": 7,
+    "quote_count": 0,
+    "incoming_link_count": 2,
+    "reads": 58,
+    "readers_count": 57,
+    "score": 65.6,
+    "yours": false,
+    "topic_id": 168142,
+    "topic_slug": "roe-instructions-request",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "reply_to_user": {
+      "id": 7795,
+      "username": "Yogesh1",
+      "name": "Yogesh",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/yogesh1/{size}/32697_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 3,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-instructions-request/168142/8",
+    "user_cakedate": "2023-01-25",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 3
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 3,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  }
+]

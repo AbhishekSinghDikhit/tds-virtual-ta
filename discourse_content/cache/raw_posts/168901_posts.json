@@ -1,0 +1,509 @@
+[
+  {
+    "id": 601917,
+    "name": "Ritwik Trivedi",
+    "username": "22f1000120",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/85f322/{size}.png",
+    "created_at": "2025-03-01T21:00:35.056Z",
+    "cooked": "<aside class=\"onebox githubrepo\" data-onebox-src=\"https://github.com/ritwiktrivedi/ROE-Master-Snippets-File\">\n  <header class=\"source\">\n\n      <a href=\"https://github.com/ritwiktrivedi/ROE-Master-Snippets-File\" target=\"_blank\" rel=\"noopener nofollow ugc\">github.com</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <div class=\"github-row\" data-github-private-repo=\"false\">\n  <img width=\"690\" height=\"344\" src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/4/7/4780e9efee3fee9a734598aa75a48693828aadb0_2_690x344.png\" class=\"thumbnail\" data-dominant-color=\"F2EFEE\">\n\n  <h3><a href=\"https://github.com/ritwiktrivedi/ROE-Master-Snippets-File\" target=\"_blank\" rel=\"noopener nofollow ugc\">GitHub - ritwiktrivedi/ROE-Master-Snippets-File</a></h3>\n\n    <p><span class=\"github-repo-description\">Contribute to ritwiktrivedi/ROE-Master-Snippets-File development by creating an account on GitHub.</span></p>\n</div>\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n\n<p>This is a repo some of us have been working on. It not complete but we are getting there. PRs are appreciated.</p>\n<p>Thanks to the course team for giving us this idea of having snippets for common operations.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-03-03T11:29:06.617Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 88,
+    "readers_count": 87,
+    "score": 51.8,
+    "yours": false,
+    "topic_id": 168901,
+    "topic_slug": "roe-common-snippets-repo-feb-2025",
+    "display_username": "Ritwik Trivedi",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://github.com/ritwiktrivedi/ROE-Master-Snippets-File",
+        "internal": false,
+        "reflection": false,
+        "title": "GitHub - ritwiktrivedi/ROE-Master-Snippets-File",
+        "clicks": 29
+      }
+    ],
+    "read": true,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 8725,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-common-snippets-repo-feb-2025/168901/1",
+    "user_cakedate": "2021-12-30",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 601922,
+    "name": "Ritwik Trivedi",
+    "username": "22f1000120",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/85f322/{size}.png",
+    "created_at": "2025-03-01T21:08:47.201Z",
+    "cooked": "<p>I am too sleepy to work on it now\u2026 So seriously\u2026 PRs are not only appreciated but needed. Just add the basic parsing code or image manipulation for ga5. I will try and add in the morning but who doesn\u2019t like Good PRs? Also mentioning <a class=\"mention\" href=\"/u/23f2005325\">@23f2005325</a> (Aishik) here for his wonderful PR which I have now merged.</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-03-01T21:08:47.201Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 82,
+    "readers_count": 81,
+    "score": 36.0,
+    "yours": false,
+    "topic_id": 168901,
+    "topic_slug": "roe-common-snippets-repo-feb-2025",
+    "display_username": "Ritwik Trivedi",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 8725,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-common-snippets-repo-feb-2025/168901/2",
+    "user_cakedate": "2021-12-30",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 601930,
+    "name": "B R GIRI SUBRAHMANYA",
+    "username": "23f2000573",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2000573/{size}/68306_2.png",
+    "created_at": "2025-03-01T23:15:51.991Z",
+    "cooked": "<p>hi, thanks to you and the other contributors for the effort</p>\n<p>i have added llm week-3 codes through pull request. my code my not be perfect. but when I ran it in my laptop, it worked fine. pls do verify once before ROE</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-03-01T23:16:59.705Z",
+    "reply_count": 0,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 73,
+    "readers_count": 72,
+    "score": 44.2,
+    "yours": false,
+    "topic_id": 168901,
+    "topic_slug": "roe-common-snippets-repo-feb-2025",
+    "display_username": "B R GIRI SUBRAHMANYA",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": "",
+    "reply_to_user": {
+      "id": 8725,
+      "username": "22f1000120",
+      "name": "Ritwik Trivedi",
+      "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/85f322/{size}.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 17736,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-common-snippets-repo-feb-2025/168901/3",
+    "user_cakedate": "2023-06-03",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 601969,
+    "name": "Ritwik Trivedi",
+    "username": "22f1000120",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/85f322/{size}.png",
+    "created_at": "2025-03-02T03:51:09.190Z",
+    "cooked": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/6/4/64c7cdf7626ee50fdc262143cf9484c83a546333.png\" data-download-href=\"/uploads/short-url/enxPeq2kQrOaXna3jQIsczPnsI3.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/6/4/64c7cdf7626ee50fdc262143cf9484c83a546333.png\" alt=\"image\" data-base62-sha1=\"enxPeq2kQrOaXna3jQIsczPnsI3\" width=\"401\" height=\"374\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">401\u00d7374 21 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\nThis looks beautiful <img src=\"https://emoji.discourse-cdn.com/google/heart.png?v=12\" title=\":heart:\" class=\"emoji\" alt=\":heart:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-03-02T03:51:09.190Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 66,
+    "readers_count": 65,
+    "score": 47.4,
+    "yours": false,
+    "topic_id": 168901,
+    "topic_slug": "roe-common-snippets-repo-feb-2025",
+    "display_username": "Ritwik Trivedi",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 8725,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-common-snippets-repo-feb-2025/168901/4",
+    "user_cakedate": "2021-12-30",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 602335,
+    "name": "Ritwik Trivedi",
+    "username": "22f1000120",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/85f322/{size}.png",
+    "created_at": "2025-03-02T11:27:20.581Z",
+    "cooked": "<p>Failure is part of life. My laptop hanged and despite having all the needed resources I panicked and the exam went the way it went. I take this as a lesson. This resource will be refined further. I thank everyone involved. I am glad that many benefitted and were actually able to score well.</p>",
+    "post_number": 5,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-03-02T11:27:20.581Z",
+    "reply_count": 0,
+    "reply_to_post_number": 4,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 28,
+    "readers_count": 27,
+    "score": 54.8,
+    "yours": false,
+    "topic_id": 168901,
+    "topic_slug": "roe-common-snippets-repo-feb-2025",
+    "display_username": "Ritwik Trivedi",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 8725,
+      "username": "22f1000120",
+      "name": "Ritwik Trivedi",
+      "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/85f322/{size}.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 3,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 8725,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-common-snippets-repo-feb-2025/168901/5",
+    "user_cakedate": "2021-12-30",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 3
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 3,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

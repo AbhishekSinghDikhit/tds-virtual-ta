@@ -1,0 +1,757 @@
+[
+  {
+    "id": 592585,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-09T12:11:34.989Z",
+    "cooked": "<p>Sir,<br>\nI am not able to understand how to solve Q7 in GA4. kindly guide me how to solve this question or provide some tutorial video to complete it.<br>\nAs the deadline is of today please provide the tutorial video for this question soon.<br>\n<a class=\"mention\" href=\"/u/saransh_saini\">@Saransh_Saini</a> , <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a> , <a class=\"mention\" href=\"/u/carlton\">@carlton</a></p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-09T12:11:34.989Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 24,
+    "readers_count": 23,
+    "score": 4.0,
+    "yours": false,
+    "topic_id": 166634,
+    "topic_slug": "doubt-in-ga4-q7",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/doubt-in-ga4-q7/166634/1",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 592816,
+    "name": "Tanya kamboj",
+    "username": "21f3000745",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3000745/{size}/638_2.png",
+    "created_at": "2025-02-09T15:17:40.710Z",
+    "cooked": "<p>Just create the url with query parameters city and followers.</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-09T15:17:40.710Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 19,
+    "readers_count": 18,
+    "score": 23.0,
+    "yours": false,
+    "topic_id": 166634,
+    "topic_slug": "doubt-in-ga4-q7",
+    "display_username": "Tanya kamboj",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 7742,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/doubt-in-ga4-q7/166634/2",
+    "user_cakedate": "2021-10-08",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 592972,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-09T16:30:09.582Z",
+    "cooked": "<p>Can you please elaborate a little bit what should be the steps ?</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-09T16:30:09.582Z",
+    "reply_count": 0,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 15,
+    "readers_count": 14,
+    "score": 2.6,
+    "yours": false,
+    "topic_id": 166634,
+    "topic_slug": "doubt-in-ga4-q7",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 7742,
+      "username": "21f3000745",
+      "name": "Tanya kamboj",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3000745/{size}/638_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/doubt-in-ga4-q7/166634/3",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 592990,
+    "name": "Debarpita Dash",
+    "username": "23f1001301",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1001301/{size}/124287_2.png",
+    "created_at": "2025-02-09T16:40:15.128Z",
+    "cooked": "<p>Connect to the GitHub API-  it lets you fetch user data automatically(go to github developer settings -&gt;personal acceess tokens-&gt;tokens(classic)<br>\nSearch for Users with criteria mentioned in your question<br>\nWe organize the list from newest to oldest, making it easy to spot the freshest account.</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-09T16:40:15.128Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 14,
+    "readers_count": 13,
+    "score": 7.4,
+    "yours": false,
+    "topic_id": 166634,
+    "topic_slug": "doubt-in-ga4-q7",
+    "display_username": "Debarpita Dash",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 25686,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/doubt-in-ga4-q7/166634/4",
+    "user_cakedate": "2024-01-23",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 593003,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-09T16:45:10.685Z",
+    "cooked": "<p>Ok thank you for the help.</p>",
+    "post_number": 5,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-09T16:45:10.685Z",
+    "reply_count": 0,
+    "reply_to_post_number": 4,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 10,
+    "readers_count": 9,
+    "score": 1.8,
+    "yours": false,
+    "topic_id": 166634,
+    "topic_slug": "doubt-in-ga4-q7",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 25686,
+      "username": "23f1001301",
+      "name": "Debarpita Dash",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1001301/{size}/124287_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/doubt-in-ga4-q7/166634/5",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 593026,
+    "name": "Saransh Saini",
+    "username": "Saransh_Saini",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png",
+    "created_at": "2025-02-09T16:54:46.677Z",
+    "cooked": "<p>Hi Sakshi,<br>\nIt seems you have already got your answers. Kindly mark the solution these two people have given, so that anyone facing the same issue would be able to get to it easily.</p>",
+    "post_number": 6,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-09T16:54:46.677Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 9,
+    "readers_count": 8,
+    "score": 6.6,
+    "yours": false,
+    "topic_id": 166634,
+    "topic_slug": "doubt-in-ga4-q7",
+    "display_username": "Saransh Saini",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Course TA",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 13078,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/doubt-in-ga4-q7/166634/6",
+    "user_cakedate": "2022-05-02",
+    "user_birthdate": "1904-08-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 593223,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-09T18:11:45.716Z",
+    "cooked": "<p>Sir I am having trouble in q8 also whenever I am pushing commit in git hub it was showing in GitHub repository but it is not working in git hub actions.<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/9/2/92ea4dcea08bee572e3014e2643e84c2d1ad1265.jpeg\" data-download-href=\"/uploads/short-url/kXFHGhOEC2NV5cjQ3lOpM78i47j.jpeg?dl=1\" title=\"17391246723344959529301152516720\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/2/92ea4dcea08bee572e3014e2643e84c2d1ad1265_2_666x500.jpeg\" alt=\"17391246723344959529301152516720\" data-base62-sha1=\"kXFHGhOEC2NV5cjQ3lOpM78i47j\" width=\"666\" height=\"500\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/2/92ea4dcea08bee572e3014e2643e84c2d1ad1265_2_666x500.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/2/92ea4dcea08bee572e3014e2643e84c2d1ad1265_2_999x750.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/2/92ea4dcea08bee572e3014e2643e84c2d1ad1265_2_1332x1000.jpeg 2x\" data-dominant-color=\"646361\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">17391246723344959529301152516720</span><span class=\"informations\">1920\u00d71440 174 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+    "post_number": 7,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-09T18:11:45.716Z",
+    "reply_count": 1,
+    "reply_to_post_number": 6,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 9,
+    "readers_count": 8,
+    "score": 6.4,
+    "yours": false,
+    "topic_id": 166634,
+    "topic_slug": "doubt-in-ga4-q7",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 13078,
+      "username": "Saransh_Saini",
+      "name": "Saransh Saini",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/doubt-in-ga4-q7/166634/7",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 593227,
+    "name": "SAKSHI PATHAK",
+    "username": "Sakshi6479",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+    "created_at": "2025-02-09T18:12:58.595Z",
+    "cooked": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/0/d/0d4f66d2d15a90c43877612db24b4fc030d6b439.jpeg\" data-download-href=\"/uploads/short-url/1TKk6TNFho6k20gVctIkN9Cdl3j.jpeg?dl=1\" title=\"17391247584894314599446477469566\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/d/0d4f66d2d15a90c43877612db24b4fc030d6b439_2_666x500.jpeg\" alt=\"17391247584894314599446477469566\" data-base62-sha1=\"1TKk6TNFho6k20gVctIkN9Cdl3j\" width=\"666\" height=\"500\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/d/0d4f66d2d15a90c43877612db24b4fc030d6b439_2_666x500.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/d/0d4f66d2d15a90c43877612db24b4fc030d6b439_2_999x750.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/d/0d4f66d2d15a90c43877612db24b4fc030d6b439_2_1332x1000.jpeg 2x\" data-dominant-color=\"636361\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">17391247584894314599446477469566</span><span class=\"informations\">1920\u00d71440 170 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\nIt is working in repo</p>",
+    "post_number": 8,
+    "post_type": 1,
+    "posts_count": 8,
+    "updated_at": "2025-02-09T18:12:58.595Z",
+    "reply_count": 0,
+    "reply_to_post_number": 7,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 11,
+    "readers_count": 10,
+    "score": 1.4,
+    "yours": false,
+    "topic_id": 166634,
+    "topic_slug": "doubt-in-ga4-q7",
+    "display_username": "SAKSHI PATHAK",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "reply_to_user": {
+      "id": 40000,
+      "username": "Sakshi6479",
+      "name": "SAKSHI PATHAK",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 40000,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/doubt-in-ga4-q7/166634/8",
+    "user_cakedate": "2024-10-04",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  }
+]

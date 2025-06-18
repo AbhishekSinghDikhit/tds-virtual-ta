@@ -1,0 +1,100 @@
+[
+  {
+    "id": 598929,
+    "name": "Aryan Bartwal",
+    "username": "22f3002813",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/9dc877/{size}.png",
+    "created_at": "2025-02-24T10:45:52.414Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/carlton\">@carlton</a> <a class=\"mention\" href=\"/u/s.anand\">@s.anand</a><br>\nDear team,<br>\nGreetings of the day</p>\n<p>I am writing this to request for a functionality</p>\n<ol>\n<li>Practice the GAs again after their deadline has passed</li>\n<li>Either the answers can be posted or the same question answering and simultaneous evaluation interface can work just like it does before the deadline.</li>\n</ol>\n<p>How this is beneficial?</p>\n<ol>\n<li>As the GATE exam has now been completed,  we can now practice the questions we either left or could not do at that time</li>\n<li>Revision will help us ace the ROE, project and end term</li>\n</ol>\n<p>Overall this will increase the value of the already most practical and rewarding course of IIT BS i.e TDS.</p>\n<p>Looking forward to your guidance and kind consideration<br>\nRegards<br>\nAryan</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 1,
+    "updated_at": "2025-02-24T10:45:52.414Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 42,
+    "readers_count": 41,
+    "score": 37.2,
+    "yours": false,
+    "topic_id": 168310,
+    "topic_slug": "request-for-a-functionality-to-revise-the-gas-of-tds",
+    "display_username": "Aryan Bartwal",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 16209,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/request-for-a-functionality-to-revise-the-gas-of-tds/168310/1",
+    "user_cakedate": "2023-01-26",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  }
+]

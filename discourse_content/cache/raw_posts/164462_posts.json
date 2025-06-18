@@ -1,0 +1,113 @@
+[
+  {
+    "id": 582608,
+    "name": "K Hari Prasath",
+    "username": "23f2003853",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2003853/{size}/67184_2.png",
+    "created_at": "2025-01-21T07:37:57.965Z",
+    "cooked": "<p>Can anyone clarify why the following error is coming in respect of answer to question 10 Graded Assignment 2                                                                                                                                                                                         Session Status                online                                                                                    Account                       23f2003853@ds.study.iitm.ac.in (Plan: Free)                                               Version                       3.19.0                                                                                    Region                        India (in)                                                                                Latency                       38ms                                                                                      Web Interface                 <a href=\"http://127.0.0.1:4040\" rel=\"noopener nofollow ugc\">http://127.0.0.1:4040</a>                                                                     Forwarding                    <a href=\"https://ed9f-14-99-254-158.ngrok-free.app\" rel=\"noopener nofollow ugc\">https://ed9f-14-99-254-158.ngrok-free.app</a> \u2192 <a href=\"http://localhost:8080\" rel=\"noopener nofollow ugc\">http://localhost:8080</a>                                                                                                                                                Connections                   ttl     opn     rt1     rt5     p50     p90                                                                             1       0       0.01    0.00    0.01    0.01                                                                                                                                                                      HTTP Requests                                                                                                           -------------                                                                                                                                                                                                                                   13:03:06.158 IST POST /v1/chat/completions      502 Bad Gateway</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 1,
+    "updated_at": "2025-02-08T02:01:56.240Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 50,
+    "readers_count": 49,
+    "score": 8.8,
+    "yours": false,
+    "topic_id": 164462,
+    "topic_slug": "tds-assignment-week-2",
+    "display_username": "K Hari Prasath",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "http://127.0.0.1:4040",
+        "internal": false,
+        "reflection": false,
+        "clicks": 0
+      },
+      {
+        "url": "https://ed9f-14-99-254-158.ngrok-free.app",
+        "internal": false,
+        "reflection": false,
+        "clicks": 0
+      },
+      {
+        "url": "http://localhost:8080",
+        "internal": false,
+        "reflection": false,
+        "clicks": 0
+      }
+    ],
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 21529,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/tds-assignment-week-2/164462/1",
+    "user_cakedate": "2023-09-18",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  }
+]

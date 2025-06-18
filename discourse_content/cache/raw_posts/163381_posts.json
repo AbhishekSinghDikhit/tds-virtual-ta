@@ -1,0 +1,402 @@
+[
+  {
+    "id": 580140,
+    "name": "Rishabh",
+    "username": "RishabhSehgal",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/r/c6cbf5/{size}.png",
+    "created_at": "2025-01-15T21:17:57.705Z",
+    "cooked": "<p>I am an international student with none of my peers here in this course. It would be amazing to work with other people taking this course this term and doing the assignments together.</p>\n<p>a few brains are better than one brain</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-15T21:17:57.705Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 94,
+    "readers_count": 93,
+    "score": 47.6,
+    "yours": false,
+    "topic_id": 163381,
+    "topic_slug": "need-friends",
+    "display_username": "Rishabh",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 20099,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/need-friends/163381/1",
+    "user_cakedate": "2023-06-12",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 580349,
+    "name": "Sakthivel S",
+    "username": "23f2000237",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2000237/{size}/66999_2.png",
+    "created_at": "2025-01-16T06:51:34.998Z",
+    "cooked": "<p>Yes indeed. We must connect to solve these assignments and prepare for ROE from now</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-16T06:51:34.998Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 82,
+    "readers_count": 81,
+    "score": 45.2,
+    "yours": false,
+    "topic_id": 163381,
+    "topic_slug": "need-friends",
+    "display_username": "Sakthivel S",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 17862,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/need-friends/163381/2",
+    "user_cakedate": "2023-06-03",
+    "user_birthdate": "1904-08-13",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 580362,
+    "name": "ADITYA SIDDHARTH JYOTI",
+    "username": "ADI_1792",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/adi_1792/{size}/70618_2.png",
+    "created_at": "2025-01-16T07:11:21.868Z",
+    "cooked": "<p>you can use <a href=\"https://acegrade.in\" rel=\"noopener nofollow ugc\">https://acegrade.in</a> to find community of people with same subjects as you . Just use the \u2018Groups\u2019 tab of the website and you will prolly find lot\u2019s of friends there .</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-16T07:11:21.868Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 76,
+    "readers_count": 75,
+    "score": 29.2,
+    "yours": false,
+    "topic_id": 163381,
+    "topic_slug": "need-friends",
+    "display_username": "ADITYA SIDDHARTH JYOTI",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://acegrade.in",
+        "internal": false,
+        "reflection": false,
+        "clicks": 10
+      }
+    ],
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 15828,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/need-friends/163381/3",
+    "user_cakedate": "2023-01-25",
+    "user_birthdate": "1904-08-21",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 580535,
+    "name": "Azhaan Pary",
+    "username": "23f2005121",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2005121/{size}/67277_2.png",
+    "created_at": "2025-01-16T11:54:45.763Z",
+    "cooked": "<p>Hey, I am Azhaan, the regional coordinator of Bandipur International. DM me on WhatsApp and I will connect you with the International Community of IITM BS. I am sending you a chat.</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-01-16T11:54:45.763Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 67,
+    "readers_count": 66,
+    "score": 27.4,
+    "yours": false,
+    "topic_id": 163381,
+    "topic_slug": "need-friends",
+    "display_username": "Azhaan Pary",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 22540,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/need-friends/163381/4",
+    "user_cakedate": "2023-09-23",
+    "user_birthdate": "1904-12-22",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "id": 600284,
+    "name": "Nelson Jochim DSouza",
+    "username": "Nelson",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/nelson/{size}/66583_2.png",
+    "created_at": "2025-02-26T11:45:53.368Z",
+    "cooked": "<p>On 2nd March, I have both Java OPPE and TDS ROE.<br>\nMy Java OPPE timing is: 9:30 to 11:00 AM<br>\nMY TDS ROE timing is: 10:30 to 11:15 AM</p>\n<p>A minimum gap of one hour is recommended.</p>\n<p>I have written to support.</p>\n<p><a class=\"mention\" href=\"/u/carlton\">@carlton</a> Please look into this.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-02-26T14:07:57.104Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 83,
+    "readers_count": 82,
+    "score": 20.6,
+    "yours": false,
+    "topic_id": 168537,
+    "topic_slug": "roe-timing-overlaps-with-java-oppe",
+    "display_username": "Nelson Jochim DSouza",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 12220,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-timing-overlaps-with-java-oppe/168537/1",
+    "user_cakedate": "2022-04-30",
+    "user_birthdate": "1904-08-16",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 600308,
+    "name": "Ansh bansal",
+    "username": "23f2004752",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004752/{size}/68296_2.png",
+    "created_at": "2025-02-26T13:09:32.246Z",
+    "cooked": "<p>I guess roe time is 13:00 to 13:45 and it is same for all , also check calender for the same.</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-02-26T13:09:32.246Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 76,
+    "readers_count": 75,
+    "score": 14.2,
+    "yours": false,
+    "topic_id": 168537,
+    "topic_slug": "roe-timing-overlaps-with-java-oppe",
+    "display_username": "Ansh bansal",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 21948,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-timing-overlaps-with-java-oppe/168537/2",
+    "user_cakedate": "2023-09-18",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 600321,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-02-26T13:27:47.811Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/nelson\">@Nelson</a><br>\nTDS ROE is at 1pm in the afternoon for everyone.</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-02-26T13:27:47.811Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 2,
+    "reads": 70,
+    "readers_count": 69,
+    "score": 58.2,
+    "yours": false,
+    "topic_id": 168537,
+    "topic_slug": "roe-timing-overlaps-with-java-oppe",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-timing-overlaps-with-java-oppe/168537/3",
+    "user_cakedate": "2023-01-25",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 602894,
+    "name": "Nelson Jochim DSouza",
+    "username": "Nelson",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/nelson/{size}/66583_2.png",
+    "created_at": "2025-03-03T07:27:48.677Z",
+    "cooked": "<p>Apologies for the confusion. I realized that the issue was due to different time zones\u2014Java OPPE displayed IST (GMT +5:30), while TDS ROE showed AST (GMT +3). On the same day, I intended to delete my post on Discourse but couldn\u2019t find it, as it was still in draft mode. So, I deleted it. However, I was surprised to see the post today.</p>\n<p>I regret any inconvenience caused.</p>",
+    "post_number": 5,
+    "post_type": 1,
+    "posts_count": 4,
+    "updated_at": "2025-03-03T07:27:48.677Z",
+    "reply_count": 0,
+    "reply_to_post_number": 3,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 22,
+    "readers_count": 21,
+    "score": 3.4,
+    "yours": false,
+    "topic_id": 168537,
+    "topic_slug": "roe-timing-overlaps-with-java-oppe",
+    "display_username": "Nelson Jochim DSouza",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "reply_to_user": {
+      "id": 16094,
+      "username": "carlton",
+      "name": "Carlton D'Silva",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 12220,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/roe-timing-overlaps-with-java-oppe/168537/5",
+    "user_cakedate": "2022-04-30",
+    "user_birthdate": "1904-08-16",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  }
+]

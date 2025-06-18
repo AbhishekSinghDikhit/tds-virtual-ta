@@ -1,0 +1,321 @@
+[
+  {
+    "id": 590718,
+    "name": "HariOm Pandey",
+    "username": "21f3002112",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3002112/{size}/584_2.png",
+    "created_at": "2025-02-05T05:04:10.385Z",
+    "cooked": "<p>The lectures primarily focus on surface-level explanations without ensuring a strong foundational understanding of the topics. Key concepts, such as Large Language Models (LLMs) and related technologies, are not explained in a structured manner, making it difficult for students to follow.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-02-05T05:04:10.385Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 2,
+    "reads": 77,
+    "readers_count": 76,
+    "score": 24.6,
+    "yours": false,
+    "topic_id": 166303,
+    "topic_slug": "llm-what-rocket-science-going-on-here",
+    "display_username": "HariOm Pandey",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 8119,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/llm-what-rocket-science-going-on-here/166303/1",
+    "user_cakedate": "2021-12-29",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 590720,
+    "name": "HariOm Pandey",
+    "username": "21f3002112",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3002112/{size}/584_2.png",
+    "created_at": "2025-02-05T05:06:15.787Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/carlton\">@carlton</a> sir i watch live session recording , but still not getting some useful from it , I am talking about week 3 content in llm , these words are never heard by us so please try to tech from basic things please . At least tell us , what is llm and what is use of , everything is going to above of our head .</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-02-05T05:15:47.433Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 76,
+    "readers_count": 75,
+    "score": 34.2,
+    "yours": false,
+    "topic_id": 166303,
+    "topic_slug": "llm-what-rocket-science-going-on-here",
+    "display_username": "HariOm Pandey",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 8119,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/llm-what-rocket-science-going-on-here/166303/2",
+    "user_cakedate": "2021-12-29",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 591055,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-02-06T05:49:08.446Z",
+    "cooked": "<p>Hi Hari,</p>\n<p>The goal of the course was never to go deep into specific technologies, with perhaps the exception of LLMs as major tooling capability for data science. Due to the volume of the content in the first 3 weeks it was decided to at least get students sufficient information to be able to do the Graded Assignments. One of the criticisms we received last term was that the sessions were too slow because we were covering from the very basics. So it was a conscious decision to speed up and shorten the explanations. Of course this is always difficult to get right because we respond to students in sessions. This is why attending the sessions is more valuable than watching the sessions. We cannot effectively gauge what level to pitch at if the audience is silent or not involved. We can only guess the level of the vast silent mass of students. The quality of sessions only improve when the sessions are interactive and well attended.</p>\n<p>Have you watched this session in particular?</p><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"lmSMQ5LWa30\" data-video-title=\"2025-01-28 Week 3 - Session 1 - TDS Jan 25\" data-video-start-time=\"3133\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=lmSMQ5LWa30&amp;t=3133\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/5/f/5f761086e44617c54e405c03db45772d8428e8df.jpeg\" title=\"2025-01-28 Week 3 - Session 1 - TDS Jan 25\" data-dominant-color=\"595B5F\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<p>If thats insufficient for you last term we did a 2hr 48 min session on just introducing it</p><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"3OdReZsvi2w\" data-video-title=\"TA Session 11 July: LLM APi Setup and Use\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=3OdReZsvi2w\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/c/3/c37c79aa38f5d6c672b5a13b4f99a012a7e5da74.jpeg\" title=\"TA Session 11 July: LLM APi Setup and Use\" data-dominant-color=\"844D39\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<p>followed by another 2 hour detailed explanation of the more advanced use cases</p><div class=\"youtube-onebox lazy-video-container\" data-video-id=\"ELZf0n_0u9w\" data-video-title=\"&quot;TA session 12 July : week 5 , LLM API and embedding&quot;\" data-video-start-time=\"\" data-provider-name=\"youtube\">\n  <a href=\"https://www.youtube.com/watch?v=ELZf0n_0u9w\" target=\"_blank\" class=\"video-thumbnail\" rel=\"noopener nofollow ugc\">\n    <img class=\"youtube-thumbnail\" src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/6/f/6f939856a1a40a564cc355f6fd4a217178902967.jpeg\" title=\"&quot;TA session 12 July : week 5 , LLM API and embedding&quot;\" data-dominant-color=\"838585\" width=\"690\" height=\"388\">\n  </a>\n</div>\n\n<p>But of course does everyone want to watch 5.5 hours of sessions to understand it? That depends on the student.</p>\n<p>Ultimately the best you can get out of sessions is by actually attending them because only then can we address gaps in understanding.</p>\n<p>Kind regards</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-02-06T05:49:08.446Z",
+    "reply_count": 0,
+    "reply_to_post_number": 2,
+    "quote_count": 0,
+    "incoming_link_count": 3,
+    "reads": 45,
+    "readers_count": 44,
+    "score": 38.2,
+    "yours": false,
+    "topic_id": 166303,
+    "topic_slug": "llm-what-rocket-science-going-on-here",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://www.youtube.com/watch?v=3OdReZsvi2w",
+        "internal": false,
+        "reflection": false,
+        "clicks": 0
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ELZf0n_0u9w",
+        "internal": false,
+        "reflection": false,
+        "clicks": 0
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=lmSMQ5LWa30",
+        "internal": false,
+        "reflection": false,
+        "clicks": 0
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=lmSMQ5LWa30&t=3133",
+        "internal": false,
+        "reflection": false,
+        "clicks": 0
+      }
+    ],
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "reply_to_user": {
+      "id": 8119,
+      "username": "21f3002112",
+      "name": "HariOm Pandey",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3002112/{size}/584_2.png"
+    },
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/llm-what-rocket-science-going-on-here/166303/3",
+    "user_cakedate": "2023-01-25",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

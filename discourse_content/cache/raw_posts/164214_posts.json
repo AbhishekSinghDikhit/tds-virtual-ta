@@ -1,0 +1,305 @@
+[
+  {
+    "id": 581725,
+    "name": "Divyani kushwaha ",
+    "username": "23f30007561",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f30007561/{size}/68772_2.png",
+    "created_at": "2025-01-18T17:46:19.737Z",
+    "cooked": "<p>Project details for TDS was supposed to be released on 17 jan ; how to access its details ?</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-01-18T17:46:19.737Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 5,
+    "reads": 96,
+    "readers_count": 95,
+    "score": 58.4,
+    "yours": false,
+    "topic_id": 164214,
+    "topic_slug": "tds-project-1-release-information-required",
+    "display_username": "Divyani kushwaha ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 26848,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/tds-project-1-release-information-required/164214/1",
+    "user_cakedate": "2024-02-02",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 581728,
+    "name": "Aditi Shastri",
+    "username": "adi3",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/adi3/{size}/110586_2.png",
+    "created_at": "2025-01-18T18:04:10.069Z",
+    "cooked": "<p>Yes please, same question!<br>\n<a class=\"mention\" href=\"/u/carlton\">@carlton</a></p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-01-18T18:04:10.069Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 108,
+    "readers_count": 107,
+    "score": 70.6,
+    "yours": false,
+    "topic_id": 164214,
+    "topic_slug": "tds-project-1-release-information-required",
+    "display_username": "Aditi Shastri",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 3,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 21357,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/tds-project-1-release-information-required/164214/2",
+    "user_cakedate": "2023-08-03",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 3
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 3,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 581944,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-01-19T10:12:35.077Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/23f30007561\">@23f30007561</a> <a class=\"mention\" href=\"/u/adi3\">@adi3</a></p>\n<p>It has been released. Thanks for keeping us on our toes <img src=\"https://emoji.discourse-cdn.com/google/wink.png?v=12\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\n<a href=\"https://tds.s-anand.net/#/project-1\" class=\"onebox\" target=\"_blank\" rel=\"noopener nofollow ugc\">https://tds.s-anand.net/#/project-1</a></p>\n<aside class=\"quote quote-modified\" data-post=\"1\" data-topic=\"164277\">\n  <div class=\"title\">\n    <div class=\"quote-controls\"></div>\n    <img loading=\"lazy\" alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/48/15264_2.png\" class=\"avatar\">\n    <a href=\"https://discourse.onlinedegree.iitm.ac.in/t/project-1-llm-based-automation-agent-discussion-thread-tds-jan-2025/164277\">Project 1 - LLM-based Automation Agent - Discussion Thread [TDS Jan 2025]</a> <a class=\"badge-category__wrapper \" href=\"/c/courses/tds-kb/34\"><span data-category-id=\"34\" style=\"--category-badge-color: #0088CC; --category-badge-text-color: #FFFFFF; --parent-category-badge-color: #3AB54A;\" data-parent-category-id=\"9\" data-drop-close=\"true\" class=\"badge-category --has-parent\" title=\"This category is created to address subject-specific queries related to Tools in Data Science\"><span class=\"badge-category__name\">Tools in Data Science</span></span></a>\n  </div>\n  <blockquote>\n    Please post any questions related to <a href=\"https://tds.s-anand.net/#/project-1\" rel=\"noopener nofollow ugc\">Project 1 - LLM-based Automation Agent</a>. \nDeadline: Saturday, February 15, 2025 6:29 PM (UTC) \n<a class=\"mention\" href=\"/u/carlton\">@carlton</a> <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a> <a class=\"mention\" href=\"/u/saransh_saini\">@Saransh_Saini</a>\n  </blockquote>\n</aside>\n\n<p>Kind regards</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-01-19T10:12:35.077Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 100,
+    "readers_count": 99,
+    "score": 24.2,
+    "yours": false,
+    "topic_id": 164214,
+    "topic_slug": "tds-project-1-release-information-required",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://tds.s-anand.net/#/project-1",
+        "internal": false,
+        "reflection": false,
+        "title": "Tools in Data Science",
+        "clicks": 8
+      },
+      {
+        "url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-llm-based-automation-agent-discussion-thread-tds-jan-2025/164277",
+        "internal": true,
+        "reflection": false,
+        "title": "Project 1 - LLM-based Automation Agent - Discussion Thread [TDS Jan 2025]",
+        "clicks": 0
+      }
+    ],
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/tds-project-1-release-information-required/164214/3",
+    "user_cakedate": "2023-01-25",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

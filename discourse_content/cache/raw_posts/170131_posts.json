@@ -1,0 +1,185 @@
+[
+  {
+    "id": 607317,
+    "name": "Khushi Patel",
+    "username": "22f3001561",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3001561/{size}/120037_2.png",
+    "created_at": "2025-03-16T18:46:29.863Z",
+    "cooked": "<p>In every TDS assignment after the first, I have not seen a submit button in the assignment page so I could not submit it there( I see it in the sanand portal and submit it there)</p>\n<p>Now, my assignment score for all assignments (2,3,4,5) shows 0</p>\n<p>I am attaching SS of my assignment-5 page to show there was no submit button available there</p>\n<p>I had raised this as a ticket in the Support desk(21/Feb) in the past as discourse was not available to me at that time, but this didn\u2019t get resolved. I saw a similar older thread where it was mentioned that this is not something to worry about but now it is showing in the portal that I am not allowed to take the End Term Exam. What can be done for this?<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/5/5/55a128c9bfe559f473f6bbefc14cd659cb0f36b4.png\" data-download-href=\"/uploads/short-url/cdvRLJCdsJ6VyekmwnffD293coY.png?dl=1\" title=\"SS\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/5/5/55a128c9bfe559f473f6bbefc14cd659cb0f36b4_2_690x367.png\" alt=\"SS\" data-base62-sha1=\"cdvRLJCdsJ6VyekmwnffD293coY\" width=\"690\" height=\"367\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/5/5/55a128c9bfe559f473f6bbefc14cd659cb0f36b4_2_690x367.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/5/5/55a128c9bfe559f473f6bbefc14cd659cb0f36b4_2_1035x550.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/5/5/55a128c9bfe559f473f6bbefc14cd659cb0f36b4_2_1380x734.png 2x\" data-dominant-color=\"D5D5D8\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">SS</span><span class=\"informations\">1895\u00d71010 167 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-03-16T18:46:29.863Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 49,
+    "readers_count": 48,
+    "score": 8.6,
+    "yours": false,
+    "topic_id": 170131,
+    "topic_slug": "problem-with-tds-ga-scores",
+    "display_username": "Khushi Patel",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 34916,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/problem-with-tds-ga-scores/170131/1",
+    "user_cakedate": "2024-06-26",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 607332,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-03-17T03:38:14.468Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/22f3001561\">@22f3001561</a> GA5 like all the prior GAs for TDS Jan 25 term were all to be submitted through the graded assignment page. Which is in the link provided (it is actually in the screen shot you have provided).<br>\nAll the previous GA 1 through 4 were also exactly the same.</p>\n<p>We have no evidence you ever submitted any of the other GAs except GA1.</p>\n<p>Kind regards</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-03-17T03:38:14.468Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 39,
+    "readers_count": 38,
+    "score": 6.8,
+    "yours": false,
+    "topic_id": 170131,
+    "topic_slug": "problem-with-tds-ga-scores",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/problem-with-tds-ga-scores/170131/2",
+    "user_cakedate": "2023-01-25",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]

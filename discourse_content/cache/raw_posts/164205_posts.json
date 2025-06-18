@@ -1,0 +1,101 @@
+[
+  {
+    "id": 581700,
+    "name": "Prasoon Shukla",
+    "username": "psisaddicted",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/psisaddicted/{size}/111629_2.png",
+    "created_at": "2025-01-18T16:13:12.288Z",
+    "cooked": "<p>I feel that Week 1 is packed with tutorials from diverse areas. While I understand the necessity of these tutorials, they lack immediate exercises, which makes it difficult to retain the knowledge gained. Attempting to practice everything from these tutorials leaves insufficient time for other courses.</p>\n<p>Additionally, while solving GAs helps reinforce learning, they don\u2019t seem to cover all the concepts from the tutorials.</p>\n<p>I would want to know whether the learning from GAs is sufficient or if there\u2019s a better way to balance this.</p>\n<p>PS - To address this at a management level, my suggestion would be to introduce AQs  or  mini exercises after each module. Alternatively, we could increase questions in GAs to cover more concepts, though the first approach might be more effective. Another improvement could be to reduce the diversity of content in a single week to make it more manageable.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 1,
+    "updated_at": "2025-01-18T16:13:12.288Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 41,
+    "readers_count": 40,
+    "score": 67.4,
+    "yours": false,
+    "topic_id": 164205,
+    "topic_slug": "need-clarity",
+    "display_username": "Prasoon Shukla",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 4,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 25514,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/need-clarity/164205/1",
+    "user_cakedate": "2024-01-20",
+    "user_birthdate": "1904-01-20",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 4
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 4,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "id": 581529,
+    "name": "Rishit",
+    "username": "Rrishit",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/rrishit/{size}/112505_2.png",
+    "created_at": "2025-01-18T07:57:16.857Z",
+    "cooked": "<p>The knowledge required by students to do TDS has been revised during recent terms. ( Mentioned that as per industrial standards/ needs).</p>\n<p>Additional programming skills are required(in addition to Python) to follow the TDS Course. That means indirectly, one should complete many courses diploma in programming before doing TDS.</p>\n<p>In such a case, how to drop the course Tools In Data Science(already registered) and get it replaced with another course to save time and without incurring financial losses(as dropping a course refunds only a certain percentage of fees amount paid for the course), and do it again later in terms. It\u2019s completely IIT Madras\u2019s fault since it was mentioned in the academics site that no prerequisites were required for the course while the reality turned out to be far from promises. I want to either get the course structure for the TDS revised or get it replaced with some another course; incase of some course fee difference, I will pay the difference amount.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-01-18T07:57:16.857Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 79,
+    "readers_count": 78,
+    "score": 35.0,
+    "yours": false,
+    "topic_id": 164147,
+    "topic_slug": "issues-in-tds-and-replacement-with-another-course",
+    "display_username": "Rishit",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 35818,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/issues-in-tds-and-replacement-with-another-course/164147/1",
+    "user_cakedate": "2024-09-21",
+    "user_birthdate": "1904-02-20",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 581735,
+    "name": "B R GIRI SUBRAHMANYA",
+    "username": "23f2000573",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2000573/{size}/68306_2.png",
+    "created_at": "2025-01-18T18:33:47.373Z",
+    "cooked": "<p>i think you would have to mail this to the support</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-01-18T18:33:47.373Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 63,
+    "readers_count": 62,
+    "score": 27.0,
+    "yours": false,
+    "topic_id": 164147,
+    "topic_slug": "issues-in-tds-and-replacement-with-another-course",
+    "display_username": "B R GIRI SUBRAHMANYA",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "",
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 17736,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/issues-in-tds-and-replacement-with-another-course/164147/2",
+    "user_cakedate": "2023-06-03",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 582082,
+    "name": "Shaurya Sharad Shukla",
+    "username": "TRIGON",
+    "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/t/c6cbf5/{size}.png",
+    "created_at": "2025-01-19T15:17:29.605Z",
+    "cooked": "<p><a class=\"mention\" href=\"/u/rrishit\">@Rrishit</a>, please do share the response you receive (or maybe already have) from Support, regarding this, here.</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 3,
+    "updated_at": "2025-01-19T15:17:29.605Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 51,
+    "readers_count": 50,
+    "score": 9.4,
+    "yours": false,
+    "topic_id": 164147,
+    "topic_slug": "issues-in-tds-and-replacement-with-another-course",
+    "display_username": "Shaurya Sharad Shukla",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 43072,
+    "hidden": false,
+    "trust_level": 0,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/issues-in-tds-and-replacement-with-another-course/164147/3",
+    "user_cakedate": "2025-01-11",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  }
+]

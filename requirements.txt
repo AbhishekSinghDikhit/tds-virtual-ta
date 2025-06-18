@@ -1,0 +1,11 @@
+fastapi
+pydantic
+python-dotenv
+requests
+numpy
+uvicorn
+playwright
+undetected-chromedriver
+beautifulsoup4
+pillow
+pytesseract

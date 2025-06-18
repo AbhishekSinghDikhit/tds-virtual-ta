@@ -1,0 +1,193 @@
+[
+  {
+    "id": 616382,
+    "name": "Nomit Rawat",
+    "username": "Nomit",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/nomit/{size}/5429_2.png",
+    "created_at": "2025-04-07T03:41:26.209Z",
+    "cooked": "<p>Can anyone share the link to project 1 solution github repo.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-04-07T03:41:26.209Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 57,
+    "readers_count": 56,
+    "score": 9.6,
+    "yours": false,
+    "topic_id": 171999,
+    "topic_slug": "project-1-solution-repository-link",
+    "display_username": "Nomit Rawat",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 5136,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/project-1-solution-repository-link/171999/1",
+    "user_cakedate": "2021-05-09",
+    "user_birthdate": "1904-12-03",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 616421,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-04-07T05:50:26.193Z",
+    "cooked": "<p>The repo has not been made public. But until that happens, we are allowed to share the solution.<br>\nJust name the script app.py, build the docker image according to test environment. This also happened to be the highest scoring script getting 19 tasks correct.</p>\n<pre data-code-wrap=\"python\"><code class=\"lang-python\"># /// script\n# requires-python = \"&gt;=3.11\"\n# dependencies = [\n#   \"fastapi\",\n#   \"httpx\",\n#   \"uvicorn\",\n# ]\n# ///\n\nfrom fastapi import FastAPI, HTTPException\nfrom fastapi.staticfiles import StaticFiles\nfrom fastapi.responses import FileResponse\nimport os\nimport httpx\nimport re\nimport asyncio\n\napp = FastAPI()\napp.mount(\"/static\", StaticFiles(directory=\"static\"), name=\"static\")\n\ntoken = os.environ[\"LLMFOUNDRY_TOKEN\"]\n\n\nasync def llm(system_prompt: str, user_prompt: str) -&gt; str:\n    \"\"\"Call GPT-4o-Mini via AI Proxy.\"\"\"\n    async with httpx.AsyncClient(timeout=30.0) as client:\n        response = await client.post(\n            \"https://llmfoundry.straive.com/v1/chat/completions\",\n            headers={\"Authorization\": f\"Bearer {token}\"},\n            json={\n                \"model\": \"gpt-4o-mini\",\n                \"messages\": [\n                    {\"role\": \"system\", \"content\": system_prompt},\n                    {\"role\": \"user\", \"content\": user_prompt},\n                ],\n            },\n        )\n        response.raise_for_status()\n        return response.json()[\"choices\"][0][\"message\"][\"content\"]\n\n\nsystem_prompt = \"\"\"The user will provide a task description.\nWrite one or more `bash` or `python` scripts to execute the task.\n\nCODING RULES:\n\n- uv, the Python runner, is ALREADY installed. Run with `uv run [URL] [ARGUMENTS]`\n- Parse dates with `python-dateutil`\n- Sender email is in the `From: \"Name &lt;email@...&gt;` header\n- When removing a prefix (e.g. `/data/docs/`) from a path, retain the path after the prefix\n- Call an LLM via a POST request to `https://llmfoundry.straive.com/openai/v1/chat/completions` with `Authorization: Bearer {os.getenv(\"LLMFOUNDRY_TOKEN\")}` and this JSON body:\n    {\n      model: \"gpt-4o-mini\",\n      messages: [\n        { role: \"system\", content: \"[INSERT SYSTEM PROMPT]\" },\n        { role: \"user\", content: [\n        { type: \"text\", text: \"[INSERT USER MESSAGE]\" }, // for text\n        { type: \"image_url\", image_url: { url: `data:[IMAGE MIME TYPE];base64,[IMAGE BASE64]`, detail: \"low\" } }, // for image. Get MIME type DYNAMICALLY from image\n        ]}\n      ],\n      // response_format: \"json_object\",  // forces JSON response\n    }\n  Response is in `response.choices?.[0]?.message?.content`. Error is in `response.error?.message`.\n- Calculate embeddings with a POST request to `https://llmfoundry.straive.com/openai/v1/embeddings` with `Authorization: Bearer {os.getenv(\"LLMFOUNDRY_TOKEN\")}` and this JSON body:\n    {\n      model: \"text-embedding-3-small\",\n      input: [array of strings],\n    }\n  Embeddings are in response.data[*].embedding - an array of floats.\n  Calculate the dot product of the embeddings (skipping the diagonal) to find the most similar pair of strings.\n\nclient.post(\n            f\"{openai_api_base}/embeddings\",\n            headers={\"Authorization\": f\"Bearer {openai_api_key}\"},\n            json={\"model\": \"text-embedding-3-small\", \"input\": data},\n        )\n- When extracting card information, use the system prompt \"Extract the EXACT dummy credit card number from this test image\"\n\nEXECUTION RULES: An automated agent will blindly run the scripts you provide. So ONLY\nwrite the FINAL script(s) to run in ```bash or ```python code fences.\n\"\"\"\n\n\n@app.post(\"/run\")\nasync def run_task(task: str):\n    \"\"\"Execute a plain-English automation task.\"\"\"\n    response = await llm(system_prompt, task)\n    print(f\"\\n\ud83d\udfe1 Running task:\\n{task.strip()}\\n\")\n    print(f\"\\n\ud83d\udfe1 {response}\\n\")\n\n    results = []\n    for language, code in re.findall(r\"```(python|bash)\\n(.*?)\\n```\", response, re.DOTALL):\n        print(f\"\\n\ud83d\udfe1 Running {language} code:\\n{code}\\n\")\n        if language == \"python\":\n            result = await execute_python(code)\n        else:  # bash\n            result = await execute_bash(code)\n        results.append({\"lang\": language, **result})\n\n    print(f\"\\n\ud83d\udfe1 Results:\\n{results}\\n\")\n    return {\"response\": response, \"results\": results}\n\n\n@app.get(\"/read\")\nasync def read_file(path: str):\n    \"\"\"Read contents of a file.\"\"\"\n    # Validate path is within /data\n    path = os.path.normpath(path)\n    if not path.startswith(\"/data/\"):\n        raise HTTPException(status_code=400, detail=\"Invalid path\")\n    if not os.path.exists(path):\n        raise HTTPException(status_code=404, detail=\"File not found\")\n    return FileResponse(path)\n\n\n@app.post(\"/execute/python\")\nasync def execute_python(code: str):\n    \"\"\"Execute Python code directly.\"\"\"\n    proc = await asyncio.create_subprocess_exec(\n        \"python3\",\n        \"-\",\n        stdin=asyncio.subprocess.PIPE,\n        stdout=asyncio.subprocess.PIPE,\n        stderr=asyncio.subprocess.PIPE,\n    )\n    stdout, stderr = await proc.communicate(code.encode())\n\n    if proc.returncode != 0:\n        print(f\"\\n\ud83d\udd34 Python execution failed:\\n{stderr.decode()}\")\n        raise HTTPException(status_code=500, detail=f\"Execution failed: {stderr.decode()}\")\n\n    return {\"stdout\": stdout.decode(), \"stderr\": stderr.decode()}\n\n\n@app.post(\"/execute/bash\")\nasync def execute_bash(code: str):\n    \"\"\"Execute bash code directly.\"\"\"\n    proc = await asyncio.create_subprocess_exec(\n        \"bash\",\n        stdin=asyncio.subprocess.PIPE,\n        stdout=asyncio.subprocess.PIPE,\n        stderr=asyncio.subprocess.PIPE,\n    )\n    stdout, stderr = await proc.communicate(code.encode())\n\n    if proc.returncode != 0:\n        print(f\"\\n\ud83d\udd34 Bash execution failed:\\n{stderr.decode()}\")\n        raise HTTPException(status_code=500, detail=f\"Execution failed: {stderr.decode()}\")\n\n    return {\"stdout\": stdout.decode(), \"stderr\": stderr.decode()}\n\n\n@app.get(\"/\")\nasync def read_root():\n    \"\"\"Serve the index.html file.\"\"\"\n    return FileResponse(\"static/index.html\")\n\n\nif __name__ == \"__main__\":\n    import uvicorn\n\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)\n</code></pre>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-04-07T05:51:57.181Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 10,
+    "reads": 53,
+    "readers_count": 52,
+    "score": 73.8,
+    "yours": false,
+    "topic_id": 171999,
+    "topic_slug": "project-1-solution-repository-link",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/project-1-solution-repository-link/171999/2",
+    "user_cakedate": "2023-01-25",
+    "reactions": [
+      {
+        "id": "+1",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  }
+]

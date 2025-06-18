@@ -1,0 +1,494 @@
+[
+  {
+    "id": 576033,
+    "name": "Avinash Shrivastava ",
+    "username": "22f3001914",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3001914/{size}/100448_2.png",
+    "created_at": "2025-01-06T20:00:14.908Z",
+    "cooked": "<p>Dear all,</p>\n<p>I\u2019m thrilled to share a project inspired by my experience in the *Tools in Data Science * course: <a href=\"https://github.com/AvinashShrivastav/LLM_Assignment_Evaluator_GoogleClassroom\" rel=\"noopener nofollow ugc\"><strong>LLM Classroom Assignment Evaluator</strong></a>.  This is the basic prototype.</p>\n<p>This tool leverages Google APIs and LLMs to automate grading and feedback for Google Classroom assignments, making evaluation faster and more insightful for educators.</p>\n<p>A heartfelt thanks to <strong><a class=\"mention\" href=\"/u/s.anand\">@s.anand</a></strong>, our course instructor, and TAs <strong><a class=\"mention\" href=\"/u/carlton\">@Carlton</a></strong> and <strong><a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a></strong>, whose guidance on LLM function calling and real-world applications made this project possible.</p>\n<p>I\u2019d love to invite contributions from this amazing community to:</p>\n<ul>\n<li>Expand functionality and evaluation models.</li>\n<li>Fix bugs and optimize workflows.</li>\n<li>Improve documentation for broader accessibility.</li>\n</ul>\n<p>The <a href=\"https://github.com/AvinashShrivastav/LLM_Assignment_Evaluator_GoogleClassroom\" rel=\"noopener nofollow ugc\">GitHub repository</a> is open for forks, pull requests, and ideas. I look forward to collaborating with you all!</p>\n<p>Update: here is a video explaining the process - <a href=\"https://youtu.be/xa4zhP-S3NE?feature=shared\" rel=\"noopener nofollow ugc\">https://youtu.be/xa4zhP-S3NE?feature=shared</a><br>\nBest regards,<br>\nAvinash Shrivastava</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-01-07T16:39:49.959Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 3,
+    "reads": 95,
+    "readers_count": 94,
+    "score": 62.6,
+    "yours": false,
+    "topic_id": 161214,
+    "topic_slug": "contribute-to-my-open-source-llm-classroom-assignment-evaluator",
+    "display_username": "Avinash Shrivastava ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "link_counts": [
+      {
+        "url": "https://github.com/AvinashShrivastav/LLM_Assignment_Evaluator_GoogleClassroom",
+        "internal": false,
+        "reflection": false,
+        "title": "GitHub - AvinashShrivastav/LLM_Assignment_Evaluator_GoogleClassroom",
+        "clicks": 30
+      },
+      {
+        "url": "https://youtu.be/xa4zhP-S3NE?feature=shared",
+        "internal": false,
+        "reflection": false,
+        "clicks": 6
+      }
+    ],
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 15744,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/contribute-to-my-open-source-llm-classroom-assignment-evaluator/161214/1",
+    "user_cakedate": "2023-01-25",
+    "user_birthdate": "1904-10-24",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 2
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 2,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 576109,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-01-08T03:02:45.940Z",
+    "cooked": "<p>Hi Avinash,</p>\n<p>Thats great work! I am glad you were able to use what you learnt from the course for something so practical. I hope you continue to develop and refine it, take feedback from the stakeholders who would be interested in this approach. I see a lot of potential in this project.</p>\n<p>Kind regards</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-01-08T03:02:45.940Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 76,
+    "readers_count": 75,
+    "score": 29.6,
+    "yours": false,
+    "topic_id": 161214,
+    "topic_slug": "contribute-to-my-open-source-llm-classroom-assignment-evaluator",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/contribute-to-my-open-source-llm-classroom-assignment-evaluator/161214/2",
+    "user_cakedate": "2023-01-25",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 576146,
+    "name": "Avinash Shrivastava ",
+    "username": "22f3001914",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3001914/{size}/100448_2.png",
+    "created_at": "2025-01-08T11:58:30.974Z",
+    "cooked": "<p>Thanks <a class=\"mention\" href=\"/u/carlton\">@carlton</a> <img src=\"https://emoji.discourse-cdn.com/google/blush.png?v=12\" title=\":blush:\" class=\"emoji\" alt=\":blush:\" loading=\"lazy\" width=\"20\" height=\"20\"> I would definitely refine it.</p>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-01-08T11:58:30.974Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 62,
+    "readers_count": 61,
+    "score": 11.8,
+    "yours": false,
+    "topic_id": 161214,
+    "topic_slug": "contribute-to-my-open-source-llm-classroom-assignment-evaluator",
+    "display_username": "Avinash Shrivastava ",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 15744,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/contribute-to-my-open-source-llm-classroom-assignment-evaluator/161214/3",
+    "user_cakedate": "2023-01-25",
+    "user_birthdate": "1904-10-24",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 576220,
+    "name": "Anand S",
+    "username": "s.anand",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+    "created_at": "2025-01-09T05:05:50.620Z",
+    "cooked": "<p>Testing\u2026 please ignore</p>",
+    "post_number": 4,
+    "post_type": 3,
+    "posts_count": 5,
+    "updated_at": "2025-01-09T05:05:50.620Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 55,
+    "readers_count": 54,
+    "score": 10.2,
+    "yours": false,
+    "topic_id": 161214,
+    "topic_slug": "contribute-to-my-open-source-llm-classroom-assignment-evaluator",
+    "display_username": "Anand S",
+    "primary_group_name": "faculty",
+    "flair_name": "faculty",
+    "flair_url": "chalkboard-user",
+    "flair_bg_color": "f2c26e",
+    "flair_color": "000",
+    "flair_group_id": 54,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Course_faculty",
+    "title_is_group": true,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 9419,
+    "hidden": false,
+    "trust_level": 4,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "action_code": "assigned_to_post",
+    "action_code_who": "s.anand",
+    "action_code_path": "/p/576109",
+    "post_url": "/t/contribute-to-my-open-source-llm-classroom-assignment-evaluator/161214/4",
+    "user_cakedate": "2022-01-03",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  },
+  {
+    "id": 576221,
+    "name": "Anand S",
+    "username": "s.anand",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+    "created_at": "2025-01-09T05:07:09.977Z",
+    "cooked": "",
+    "post_number": 5,
+    "post_type": 3,
+    "posts_count": 5,
+    "updated_at": "2025-01-09T05:07:09.977Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 53,
+    "readers_count": 52,
+    "score": 9.8,
+    "yours": false,
+    "topic_id": 161214,
+    "topic_slug": "contribute-to-my-open-source-llm-classroom-assignment-evaluator",
+    "display_username": "Anand S",
+    "primary_group_name": "faculty",
+    "flair_name": "faculty",
+    "flair_url": "chalkboard-user",
+    "flair_bg_color": "f2c26e",
+    "flair_color": "000",
+    "flair_group_id": 54,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Course_faculty",
+    "title_is_group": true,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 9419,
+    "hidden": false,
+    "trust_level": 4,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "action_code": "unassigned_from_post",
+    "action_code_who": "s.anand",
+    "action_code_path": "/p/576109",
+    "post_url": "/t/contribute-to-my-open-source-llm-classroom-assignment-evaluator/161214/5",
+    "user_cakedate": "2022-01-03",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true
+  }
+]

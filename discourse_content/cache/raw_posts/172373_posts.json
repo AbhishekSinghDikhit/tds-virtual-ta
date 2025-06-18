@@ -1,0 +1,192 @@
+[
+  {
+    "id": 617911,
+    "name": "Dhruv Agrawal",
+    "username": "24f1001616",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f1001616/{size}/117988_2.png",
+    "created_at": "2025-04-10T14:21:56.393Z",
+    "cooked": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/1/1/1147fa7bca00db3d2085d116f674364128961293.jpeg\" data-download-href=\"/uploads/short-url/2sSksYtujWWAwKNlXlW2eJXwnDR.jpeg?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/1/1147fa7bca00db3d2085d116f674364128961293_2_690x410.jpeg\" alt=\"image\" data-base62-sha1=\"2sSksYtujWWAwKNlXlW2eJXwnDR\" width=\"690\" height=\"410\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/1/1147fa7bca00db3d2085d116f674364128961293_2_690x410.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/1/1147fa7bca00db3d2085d116f674364128961293_2_1035x615.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/1/1/1147fa7bca00db3d2085d116f674364128961293.jpeg 2x\" data-dominant-color=\"EDEDEC\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1141\u00d7678 102 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n<a class=\"mention\" href=\"/u/carlton\">@carlton</a> sir plz review it<br>\ni think the correct answer should be A</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-04-10T14:22:09.793Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 55,
+    "readers_count": 54,
+    "score": 9.8,
+    "yours": false,
+    "topic_id": 172373,
+    "topic_slug": "pyq-doubt",
+    "display_username": "Dhruv Agrawal",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 39249,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/pyq-doubt/172373/1",
+    "user_cakedate": "2024-09-30",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": true,
+    "can_vote": false
+  },
+  {
+    "id": 617921,
+    "name": "Carlton D'Silva",
+    "username": "carlton",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+    "created_at": "2025-04-10T14:50:28.002Z",
+    "cooked": "<p>yes saturday is 5 when using weekday ()</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 2,
+    "updated_at": "2025-04-10T14:50:28.002Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 49,
+    "readers_count": 48,
+    "score": 23.8,
+    "yours": false,
+    "topic_id": 172373,
+    "topic_slug": "pyq-doubt",
+    "display_username": "Carlton D'Silva",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": "Regular",
+    "title_is_group": false,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "group_moderator": true,
+    "user_id": 16094,
+    "hidden": false,
+    "trust_level": 3,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/pyq-doubt/172373/2",
+    "user_cakedate": "2023-01-25",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": true,
+    "topic_accepted_answer": true
+  }
+]

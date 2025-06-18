@@ -1,0 +1,465 @@
+[
+  {
+    "id": 602167,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-03-02T07:30:53.879Z",
+    "cooked": "<p>I\u2019ll try to post whatever i solve lol XD</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-03-03T11:29:44.561Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 1,
+    "reads": 69,
+    "readers_count": 68,
+    "score": 32.4,
+    "yours": false,
+    "topic_id": 168943,
+    "topic_slug": "solving-roe-realtime",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 2,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "count": 1,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/solving-roe-realtime/168943/1",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [
+      {
+        "id": "heart",
+        "type": "emoji",
+        "count": 1
+      }
+    ],
+    "current_user_reaction": null,
+    "reaction_users_count": 1,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null,
+    "can_vote": false
+  },
+  {
+    "id": 602183,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-03-02T08:04:22.864Z",
+    "cooked": "<p>Q 7 LLM Embeddings (1 mark)</p>\n<p><strong>SecurePay</strong>, a leading fintech startup, has implemented an innovative feature to detect and prevent fraudulent activities in real time. As part of its security suite, the system analyzes personalized transaction messages by converting them into embeddings. These embeddings are compared against known patterns of legitimate and fraudulent messages to flag unusual activity.</p>\n<p>Imagine you are working on the SecurePay team as a junior developer tasked with integrating the text embeddings feature into the fraud detection module. When a user initiates a transaction, the system sends a personalized v\u2026</p>\n<p>ANSWER:<br>\n{<br>\n\u201cmodel\u201d: \u201ctext-embedding-3-small\u201d,<br>\n\u201cinput\u201d: [<br>\n\u201cDear user, please verify your transaction code 33692 sent to roe-23f1002382@ds.study.iitm.ac.in\u201d,<br>\n\u201cDear user, please verify your transaction code 66801 sent to roe-23f1002382@ds.study.iitm.ac.in\u201d<br>\n]<br>\n}</p>",
+    "post_number": 2,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-03-02T08:04:22.864Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 66,
+    "readers_count": 65,
+    "score": 11.8,
+    "yours": false,
+    "topic_id": 168943,
+    "topic_slug": "solving-roe-realtime",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/solving-roe-realtime/168943/2",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 602184,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-03-02T08:05:59.474Z",
+    "cooked": "<p>Q^: 6 Move and rename files (1 mark)</p>\n<p>Download q-move-rename-files.zip and extract it. Use <code>mv</code> to move all files under folders into an empty folder. Then rename all files replacing each digit with the next. 1 becomes 2, 9 becomes 0, <code>a1b9c.txt</code> becomes <code>a2b0c.txt</code>.</p>\n<p>ANSWER:</p>\n<pre><code class=\"lang-auto\">unzip /workspaces/TDS/q-move-rename-files.zip -d extracted_folder123123\n    5  mkdir empty_folder \n    6  find extracted_folder -type f -exec mv {} empty_folder/ \\; \n    7  ls\n    8  find extracted_folder123123 -type f -exec mv {} empty_folder/ \\; \n    9  cd empty_folder  \n   10  for file in *; do       new_name=$(echo \"$file\" | tr '0123456789' '1234567890')  ;     mv \"$file\" \"$new_name\"  ; done  \n   11  grep . * | LC_ALL=C sort | sha256sum  \n</code></pre>",
+    "post_number": 3,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-03-02T08:05:59.474Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 56,
+    "readers_count": 55,
+    "score": 11.0,
+    "yours": false,
+    "topic_id": 168943,
+    "topic_slug": "solving-roe-realtime",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/solving-roe-realtime/168943/3",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 602196,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-03-02T08:13:44.624Z",
+    "cooked": "<p>Sydney,Brisbane,Perth,Jakarta,Singapore,Dubai,Doha<br>\nflights</p>",
+    "post_number": 4,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-03-02T08:13:44.624Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 55,
+    "readers_count": 54,
+    "score": 10.2,
+    "yours": false,
+    "topic_id": 168943,
+    "topic_slug": "solving-roe-realtime",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": true,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/solving-roe-realtime/168943/4",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  },
+  {
+    "id": 602197,
+    "name": "Andrew David",
+    "username": "23f1002382",
+    "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002382/{size}/68945_2.png",
+    "created_at": "2025-03-02T08:14:15.471Z",
+    "cooked": "<p>150,171,174</p>\n<p>for studebts</p>",
+    "post_number": 5,
+    "post_type": 1,
+    "posts_count": 5,
+    "updated_at": "2025-03-02T08:14:15.471Z",
+    "reply_count": 0,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 0,
+    "reads": 54,
+    "readers_count": 53,
+    "score": 10.0,
+    "yours": false,
+    "topic_id": 168943,
+    "topic_slug": "solving-roe-realtime",
+    "display_username": "Andrew David",
+    "primary_group_name": "ds-students",
+    "flair_name": "ds-students",
+    "flair_url": null,
+    "flair_bg_color": "",
+    "flair_color": "",
+    "flair_group_id": 294,
+    "badges_granted": [],
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_see_hidden_post": false,
+    "can_wiki": false,
+    "read": false,
+    "user_title": null,
+    "bookmarked": false,
+    "actions_summary": [
+      {
+        "id": 2,
+        "can_act": true
+      },
+      {
+        "id": 6,
+        "can_act": true
+      },
+      {
+        "id": 3,
+        "can_act": true
+      },
+      {
+        "id": 4,
+        "can_act": true
+      },
+      {
+        "id": 8,
+        "can_act": true
+      },
+      {
+        "id": 10,
+        "can_act": true
+      },
+      {
+        "id": 7,
+        "can_act": true
+      }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 18297,
+    "hidden": false,
+    "trust_level": 1,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "post_url": "/t/solving-roe-realtime/168943/5",
+    "user_cakedate": "2023-06-05",
+    "user_birthdate": "1904-01-05",
+    "reactions": [],
+    "current_user_reaction": null,
+    "reaction_users_count": 0,
+    "current_user_used_main_reaction": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "topic_accepted_answer": null
+  }
+]
