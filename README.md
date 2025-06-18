@@ -1,4 +1,4 @@
-# TDS Virtual TA – IITM "Tools in Data Science" Question Answering API
+# TDS Virtual Teaching Assistant API
 Welcome to the TDS Virtual TA project! This is a powerful, modern API designed to answer questions for the IIT Madras "Tools in Data Science" (TDS) course. It combines web scraping, LLM-powered semantic embeddings, and similarity search to deliver smart, context-aware, and course-aligned answers.
 
 ---
@@ -75,11 +75,7 @@ You need Python 3.9+
 ```text
 OPENAI_API_KEY=your-openai-api-key-here
 ```
-- For Windows OCR: Install [Tesseract](https://github.com/tesseract-ocr/tesseract) and set the <b>PYTESSERACT_PATH</b> in <b>config.py</b>.
-- For Playwright (course content scraping), run:
-```text
-playwright install
-```
+
 ### 3. Scraping, Filtering, and Embedding (First Time/Data Update)
 Run data pipeline scripts as needed. Example:
 
