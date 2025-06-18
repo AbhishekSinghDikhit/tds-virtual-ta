@@ -28,8 +28,7 @@ Welcome to the TDS Virtual TA project! This is a powerful, modern API designed t
 ├── course_content/
 │   ├── scrape_data.py           # Scrapes course website
 │   ├── content_filtered.py      # Filtered content mapping and metadata
-│   └── process_data.py          # Embedding, similarity, and query search
-├── requirements_2.txt           # 
+│   └── process_data.py          # Embedding, similarity, and query search          # 
 └── requirements.txt             # Requirements necessary to run FASTAPI server.
 ```
 
@@ -81,7 +80,7 @@ playwright install
 Run data pipeline scripts as needed. Example:
 
 ```shell
-pip install -r requirements_2.txt  # installs necessary requirements for parsing the data.
+pip install -r requirements.txt  # installs necessary requirements for parsing the data.
 python fetch_process_data.py       # Scrapes, filter, and process data.
 ```
 
@@ -128,10 +127,4 @@ POST ```/api/```</b>
 For assignment screenshots: <b>send the image as base64 in ```"image"```.</b>
 
 ---
-
-## 🌟 Noteworthy Components
-- <b>Embeddings & Similarity:</b> Uses text-embedding-3-small for cost-effective, fast semantic search.
-- <b>Image OCR:</b> Supports both API-based and local Tesseract OCR for question images.
-- <b>Context-Aware LLM Prompts:</b> Carefully engineered system prompts deliver trustworthy, course-aligned answers.
-- <b>Extensible:</b> Easy to customize for other courses, forums, or data sources.
 

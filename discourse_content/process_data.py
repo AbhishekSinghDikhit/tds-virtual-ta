@@ -12,7 +12,7 @@ QA_JSON_PATH = "discourse_content/cache/filtered_posts/discourse_filtered.json"
 EMBEDDINGS_PICKLE_CACHE_PATH = "discourse_content/cache/question_embeddings.pkl"
 EMBEDDINGS_JSON_CACHE_PATH = "discourse_content/cache/question_embeddings.json"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_EMBEDDING_URL = "https://api.openai.com/v1/embeddings"
+OPENAI_EMBEDDING_URL = "https://aiproxy.sanand.workers.dev/openai/v1/embeddings"
 EMBEDDING_MODEL = "text-embedding-3-small"
 
 # -------------------- Load Q&A Data --------------------
